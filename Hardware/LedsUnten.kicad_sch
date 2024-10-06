@@ -1,0 +1,3026 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aa387015-55cf-4bc2-a928-5fb3c61adfd9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C210320"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HL-AM-2835D1W-S1-08-HR3_C210320_0_1"
+				(polyline
+					(pts
+						(xy -2.03 -1.52) (xy -3.81 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.03) (xy -1.27 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 -2.54) (xy -2.79 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.3) (xy -2.79 -2.79) (xy -3.3 -2.29) (xy -3.81 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 -4.32) (xy -1.78 -3.81) (xy -2.29 -3.3) (xy -2.79 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30459587-1483-494e-a62e-f73b5db374ab")
+	)
+	(junction
+		(at 201.93 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5388c438-4219-4081-ac2d-ce61a2d4c353")
+	)
+	(junction
+		(at 201.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80684020-7987-4937-b129-62e3ed7a89bb")
+	)
+	(wire
+		(pts
+			(xy 55.88 90.17) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8c5417-1ef8-4f4a-ad6c-68294fc78b5f")
+	)
+	(wire
+		(pts
+			(xy 88.9 116.84) (xy 201.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7199d7-c883-4d11-a25a-ae6c9f99e1a9")
+	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8fa39-8d22-4792-b4fe-82c0ddd3a834")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e40a5c7-7f66-49ea-80bb-71e2059f2d66")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 55.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47415639-1c77-4104-8591-ca18bd76ab7d")
+	)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ef4e00-f5a7-41c7-9e3a-e6dcca5ef495")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa28828-89f3-494b-8ed4-d03daa7ef2e3")
+	)
+	(wire
+		(pts
+			(xy 201.93 76.2) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b474f-dfbf-4012-acd9-8188a874bb15")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86566589-3eff-4265-8873-803821b6d6df")
+	)
+	(wire
+		(pts
+			(xy 88.9 97.79) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dd490a-6af7-49ef-b17c-f8dad29821f7")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 107.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb20c29-6bb7-4d01-9cc6-8c5763e51983")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f18023a-f0a4-49d8-b9d6-1fa6ca9a8fc0")
+	)
+	(wire
+		(pts
+			(xy 201.93 104.14) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953ca2e0-a0a3-4a4a-8b69-53b4cf86b4d2")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7bf07b-03a5-4e62-b59f-0dcfd5ca8354")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07dc94f-94d9-4593-b100-2ce37776d8bc")
+	)
+	(wire
+		(pts
+			(xy 201.93 90.17) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb381d44-598f-408c-9e85-d590bd00dafd")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf3273a-a4d3-4c66-b712-5ba03985236a")
+	)
+	(wire
+		(pts
+			(xy 58.42 97.79) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cb1fdd-3418-4685-95f4-e034ce5ca578")
+	)
+	(wire
+		(pts
+			(xy 201.93 116.84) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfd10a3-1e85-4c48-a2fc-a8e584d6faa3")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbab48b9-e0c2-4db9-92ea-096d81783d26")
+	)
+	(global_label "WhiteDim"
+		(shape input)
+		(at 52.07 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ee9428f-711e-4c85-ada6-86a5bb8705a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4972 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 130.81 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020379b2-3b57-4beb-81ed-338b14a1f828")
+		(property "Reference" "LED10"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "937ac692-7e8a-4260-8bd6-e1a6bc228148")
+		)
+		(pin "1"
+			(uuid "905171bf-91df-4924-b464-1e269e00f5ae")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 140.97 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a6f40e-a250-4ef8-9592-c84830e60bcc")
+		(property "Reference" "LED3"
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6f74a5f-5f2c-435c-92b8-4839fa22bd9d")
+		)
+		(pin "1"
+			(uuid "4146a812-f63f-48be-ae5a-aefb5b86033d")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 120.65 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1375cdab-e209-4e4a-8e4e-6777527c369d")
+		(property "Reference" "LED9"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ee70206-1cc1-4a5e-a4df-55fc2296f419")
+		)
+		(pin "1"
+			(uuid "0f6b6e15-6244-4455-b97a-afe7b856c00a")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 120.65 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a5f5fbc-9fb1-49f0-a7a4-84bdb9729740")
+		(property "Reference" "LED1"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a933d5ac-7e11-485c-bdc2-c10b77e9ea73")
+		)
+		(pin "1"
+			(uuid "ee00a3fb-912e-4efb-81e7-6ed9e4478c71")
+		)
+		(instances
+			(project ""
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 181.61 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9d0b2f-ab73-4092-89c7-e58f731bb937")
+		(property "Reference" "LED23"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 181.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5ed72c9-8b35-41ea-ab1f-3d4e1711e918")
+		)
+		(pin "1"
+			(uuid "8cf89ee8-6864-4724-b16d-171bc818fd43")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 55.88 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fca29a2-44eb-47e2-be46-e8a2ec6e9762")
+		(property "Reference" "#PWR01"
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad7c2842-804e-45ae-b747-1cf440503626")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 130.81 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d790828-63ba-4ad8-acee-9b46bc983948")
+		(property "Reference" "LED2"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 130.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90f326ec-b204-450a-8434-f06a4706cd6b")
+		)
+		(pin "1"
+			(uuid "9b661699-023a-4696-a8c9-8eaa1e9ea77f")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 181.61 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d81ce1-6f58-42ab-ae6a-de6cce57ff1c")
+		(property "Reference" "LED15"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4da41daf-1011-49c7-aadb-be949fddfa59")
+		)
+		(pin "1"
+			(uuid "70adba92-e89d-4842-9769-44ac09c773ee")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3474be-a6e7-4f23-ba5b-17f612b008f0")
+		(property "Reference" "R6"
+			(at 111.76 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 111.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 111.76 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "358672a3-0116-4811-865b-03fcd653df40")
+		)
+		(pin "2"
+			(uuid "5e73f595-e982-41aa-9c0c-6a5a36e8c2bc")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 161.29 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c0a1ff6-b549-4d23-873b-b5b39e067d63")
+		(property "Reference" "LED13"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "091dcd9d-e466-4d94-aaa0-fa4c2d75408b")
+		)
+		(pin "1"
+			(uuid "a97830b3-2b26-4c79-bb09-6b18ee4df762")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 161.29 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9806d9-b7ff-4f3a-982c-d9ad7962f24c")
+		(property "Reference" "LED21"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c55bae58-8a60-4719-8927-5adb0bf8969f")
+		)
+		(pin "1"
+			(uuid "791b025a-30b4-4995-86e4-e5e2593f609e")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 161.29 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6155397b-a068-4c57-b5af-6bef404e4312")
+		(property "Reference" "LED5"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df5f8389-27cc-4f91-86bd-36eff8253790")
+		)
+		(pin "1"
+			(uuid "6adcc93f-257f-4991-a647-ab1239086383")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 171.45 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68043937-1f98-43c0-b1cd-9de8a2622e9f")
+		(property "Reference" "LED22"
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c092ff59-11fd-434e-93f0-51d08f180582")
+		)
+		(pin "1"
+			(uuid "e5aa125d-e1ca-455f-894b-9b61e8852d29")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 140.97 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7734b13f-6afa-41e1-b209-83c4ab960dc5")
+		(property "Reference" "LED11"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b352af51-1604-4ad0-bf2f-478eff1b8b20")
+		)
+		(pin "1"
+			(uuid "2a8c97b7-aea2-4aa5-88de-2e2c1c4cc835")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 151.13 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8096e02d-cb49-4c81-b751-68974eefad65")
+		(property "Reference" "LED20"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43de7e16-0ef1-4dd3-b29b-5515072bb2d4")
+		)
+		(pin "1"
+			(uuid "f59165fd-9b89-40ae-8fde-7a8babc9758c")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 171.45 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a9014d-0937-4a27-ab59-ac24123728ba")
+		(property "Reference" "LED6"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 171.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56850257-412f-4b31-9ae3-a1049ec364f5")
+		)
+		(pin "1"
+			(uuid "ccabb4e9-e0cf-4096-b8b5-f4e8828c6698")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ecfa3bc-5708-466d-91e3-cb43d8c4399e")
+		(property "Reference" "R7"
+			(at 111.76 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 111.76 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 111.76 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a604e7-2166-4a1c-87c6-4ebf01c4415f")
+		)
+		(pin "2"
+			(uuid "f2ca6079-a263-49fb-89ef-cec7d07d92b3")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 181.61 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f4390d-7600-40bf-a509-3dd676bd387f")
+		(property "Reference" "LED7"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96679190-96db-4c86-ba39-6f3b59b76bfe")
+		)
+		(pin "1"
+			(uuid "c1dc5b5f-263e-437a-8b77-b7797d061d6a")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 191.77 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997e17e5-4e08-4a56-bec6-cf73b3886c09")
+		(property "Reference" "LED8"
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 191.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9fa9100-a693-42ad-b384-1043e9ccfdb6")
+		)
+		(pin "1"
+			(uuid "4994660f-6933-4aae-b596-c76164d3e6c6")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be46fdf-4d10-4767-a9f7-6bf8d7e39963")
+		(property "Reference" "#PWR02"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd2ba89-6b79-4185-921e-6e2a0c094616")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 140.97 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5909f69-ba0b-4337-8284-316bb7e2411d")
+		(property "Reference" "LED19"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "048f2294-256b-45d5-b66d-fc4481cf12f1")
+		)
+		(pin "1"
+			(uuid "33f52bcc-a42e-48d6-a932-e7b35248c375")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 120.65 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbbb3e8c-96be-4f93-8946-1fb3d480e2f8")
+		(property "Reference" "LED17"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56033e53-68f2-4eac-ac7f-450f0a4d5a9e")
+		)
+		(pin "1"
+			(uuid "29e1ee22-c6e8-4d2c-9e5c-7d668b207401")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 151.13 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd8591da-2935-4be9-9c05-e7bd56f1134f")
+		(property "Reference" "LED4"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3c14153-0f5d-4b14-9720-c1316e953f5a")
+		)
+		(pin "1"
+			(uuid "fb3ba07c-e01f-421e-950a-67c353bc347e")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 191.77 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4fb63a0-06f0-4d00-8077-a6a2cc46bba2")
+		(property "Reference" "LED24"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef3e94a5-a21b-4f71-bd8e-8f2bf89b6024")
+		)
+		(pin "1"
+			(uuid "8a32725f-8111-4612-86c5-fac69a349631")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 171.45 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc373461-207c-4a5b-a87f-69a1f5be67f0")
+		(property "Reference" "LED14"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "450f4599-80f7-449c-9b41-f71c304c8cdd")
+		)
+		(pin "1"
+			(uuid "1d03c9af-b33a-40b2-80b0-73353d2f9760")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee589031-aba8-447e-a169-fd9d2230c1d8")
+		(property "Reference" "R5"
+			(at 111.76 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 111.76 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 111.76 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ae2004-dba7-46e3-a726-1f3e3c08819e")
+		)
+		(pin "2"
+			(uuid "4d587c4b-7faf-40d6-979e-d0485114f3ad")
+		)
+		(instances
+			(project ""
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 130.81 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8d98e8-b00a-47c2-a8bc-930f66de4598")
+		(property "Reference" "LED18"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deee8081-4958-4f86-bd49-ca00e37c2b10")
+		)
+		(pin "1"
+			(uuid "759acaa2-23e5-4d04-97c4-b059e2fe3726")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 151.13 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa687202-20d4-40fb-9f9f-8a45beadd917")
+		(property "Reference" "LED12"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d333b42-f6fc-4c6f-b464-c5258ecc7e49")
+		)
+		(pin "1"
+			(uuid "a1233c3c-4bb9-4284-a925-dfdbdbd8bd2d")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:HL-AM-2835D1W-S1-08-HR3_C210320")
+		(at 191.77 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb7bc7a-f2f6-41e0-bf10-40d3b7196945")
+		(property "Reference" "LED16"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210320"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED-SMD_L3.3-W2.8-RD"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature2800-3100K_C210320.html"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C210320"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12c117c9-57f2-4c52-92dc-26380b5eed79")
+		)
+		(pin "1"
+			(uuid "ff489373-8cd3-4871-8976-82bd14366397")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 87.63)
+		(size 16.51 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a7edb5c-7ef0-4d35-9613-2c0a7f441272")
+		(property "Sheetname" "LedTreiber4"
+			(at 58.42 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CCLedTreiber.kicad_sch"
+			(at 58.42 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 58.42 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af4934f2-23df-4b9a-81b0-86114764213b")
+		)
+		(pin "LEDP" input
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be480081-a234-498d-8fc4-6b1895b4b32b")
+		)
+		(pin "Dim" input
+			(at 58.42 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27667eb6-b6a6-49ab-b0a6-75a9d148f89e")
+		)
+		(pin "LEDN" input
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e06a52f5-ff72-4829-9ac3-914cb3f72b19")
+		)
+		(pin "GND" input
+			(at 58.42 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fee2cde5-37ec-4281-a181-cbbc91c6dfbd")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941"
+					(page "4")
+				)
+			)
+		)
+	)
+)

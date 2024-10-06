@@ -1,0 +1,1852 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a12e67e0-c4fe-4e2e-85f9-7b14834c4c18")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LCSC:SY7200AABC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SY7200AABC"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LCSC:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/LED-Drivers_Silergy_SY7200AABC_SY7200AABC_C107309.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C107309"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SY7200AABC_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "EN/PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "OVP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 149.86 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070e3392-dc84-4bcd-8359-7b3cf38da329")
+	)
+	(junction
+		(at 90.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097109d5-a3c6-4f1a-aad0-a384a29d21ef")
+	)
+	(junction
+		(at 67.31 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f53e566-3512-42c4-87d6-fbfa7216b2e8")
+	)
+	(junction
+		(at 88.9 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5792dd71-af98-47c6-a8e2-f4b2a5a52d2d")
+	)
+	(junction
+		(at 125.73 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a213a8a9-62b8-44c6-92eb-369c9a2a68b0")
+	)
+	(junction
+		(at 125.73 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a54bd1ef-82c3-4e1b-8656-3eeaaf5a816f")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72e0d04-10ac-4720-a645-679610cd55f2")
+	)
+	(junction
+		(at 137.16 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d079ed21-e09c-457e-9c42-865c4d6fea9a")
+	)
+	(junction
+		(at 77.47 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d325f998-e75a-43b1-b085-0d61f1a93314")
+	)
+	(junction
+		(at 77.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7924f37-07a1-47bf-a7c3-bfe379ebd1c2")
+	)
+	(junction
+		(at 67.31 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dacc0182-efa2-4c60-b8ab-8e24ebb91a38")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e43e133-474d-40f6-8ad7-e5dc82634dbc")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebeefcb-cb1e-4f97-ad3a-e5c914a5565c")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 67.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1524ad26-b13a-4632-856e-f5a5615e1947")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2c5243-d402-46ee-9f68-4f038e8aca42")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9f6e67-89f7-4ece-8e2a-680313ee06bb")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5489ba83-b7d3-4bb9-9dcd-ed640128f618")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59928d13-40b8-40ec-ac68-66328a15c361")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a41dfcc-9c84-4cbd-8d7b-7e9c1bc38022")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e1ea81-a816-4d80-ac71-cc1e8716fad8")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dce5ef-7666-4ff9-8822-dc1d2d8b341a")
+	)
+	(wire
+		(pts
+			(xy 77.47 90.17) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac7e9a4-7e93-44be-b3e8-c81adf2b874a")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7757d238-e62b-4153-81dc-fac915b196f0")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f49f81-34e2-45a2-b7f1-3cf0c1964823")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c2fdc8-c7d4-4d82-a224-161c6e967e2c")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d8bab3-b208-43e3-853f-07a3d7f1e42b")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d08151d-6807-44dc-9147-6c511e329949")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ca534a-dccf-4a39-aded-a406c6f63ae4")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc552f0-75af-4e77-b27e-8524ebb0f48d")
+	)
+	(wire
+		(pts
+			(xy 67.31 67.31) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff29937-b73a-4eb3-ac79-ad3e7d10af18")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ffa448-541d-468d-827f-cd55d5dad817")
+	)
+	(wire
+		(pts
+			(xy 91.44 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc33cca-8da0-4bf0-8042-443f1f929f2d")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a6b98a-b455-46ff-85a3-affd291df7d6")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e17422-f908-40fb-bb09-f496b9a48466")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0af2efa-dea3-48cf-8ca0-b7135d155639")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f9d8d8-0b67-47de-a37a-5226eb46c18d")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f3df8b-674f-4a0b-88e3-d6f89843d3ff")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c519549e-588b-47c8-99d8-c83dbe93e211")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f2477f-1ccf-469e-966b-390abf01c810")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb94c425-e1ed-4574-bfdc-fcb3da2acb08")
+	)
+	(wire
+		(pts
+			(xy 87.63 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72fe26d-dd25-40c8-a42d-3d558884858c")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8974a5b-3e43-415e-8bb1-e3ca9879ae88")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3ea3e9-c461-47ea-b95a-7a420b4e6b6a")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe6bb83-19fc-437b-a58e-d3535c3ddfb3")
+	)
+	(hierarchical_label "LEDP"
+		(shape input)
+		(at 154.94 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a0baf94-e223-4ee3-8cf8-b128ac4f7567")
+	)
+	(hierarchical_label "LEDN"
+		(shape input)
+		(at 129.54 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3766c3db-9835-4fa9-8e74-57e253a7405e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 59.69 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65c843f4-5fe9-4433-a33f-909e2e875d13")
+	)
+	(hierarchical_label "Dim"
+		(shape input)
+		(at 87.63 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "947e03c4-11b1-4f52-9879-6db4219a0b42")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 59.69 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7eccd52-7193-4df4-a0bf-f8e1823b9660")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20108455-9279-4067-bc1e-67e29ef0d5d8")
+		(property "Reference" "C9"
+			(at 69.85 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 68.2752 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8164c275-d878-4a83-82dc-d934fad7d948")
+		)
+		(pin "1"
+			(uuid "1034ea9a-f629-4867-8816-b581dc67848c")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:SY7200AABC")
+		(at 106.68 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b8de029-8e88-470f-a04d-dd241f47c32d")
+		(property "Reference" "U4"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY7200AABC"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/LED-Drivers_Silergy_SY7200AABC_SY7200AABC_C107309.html"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107309"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fc86349-8eb9-4b59-89d9-4107bb3e1977")
+		)
+		(pin "5"
+			(uuid "8049f587-01e0-4036-b209-3412fad494a7")
+		)
+		(pin "3"
+			(uuid "763be3de-8ab9-41aa-b390-3d59e8568b39")
+		)
+		(pin "1"
+			(uuid "81993b01-5995-456c-923f-8597b7bfca70")
+		)
+		(pin "4"
+			(uuid "5532813c-078d-49c9-acc0-0ccbfdbacf2c")
+		)
+		(pin "6"
+			(uuid "9787fcc9-dbfb-406d-98a0-dec3749d2b72")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 105.41 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47864b90-e751-47fa-989d-4a9359fff3ec")
+		(property "Reference" "L7"
+			(at 103.632 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.442 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:IND-SMD_L2.5-W2.0"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9c3473-109c-47fe-a2de-e4b2d02decae")
+		)
+		(pin "2"
+			(uuid "3ad3e854-64e0-4c87-beae-532eef15f33d")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "L7")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "L9")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "L11")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "L10")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
+		(property "Reference" "R8"
+			(at 128.27 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2"
+			(at 128.27 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 123.952 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "054d616c-d002-46a0-b35c-c1300ab7574b")
+		)
+		(pin "1"
+			(uuid "7bdf8ddf-ea9a-44f1-9420-69c1be9ee56e")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d6e6df-2e4e-4630-9ed2-1dd963681623")
+		(property "Reference" "C20"
+			(at 153.67 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 153.67 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 150.8252 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f23a0130-44e9-4033-8fb2-7903d9731d5c")
+		)
+		(pin "1"
+			(uuid "b8c39e52-a2ae-4949-8ce1-764ea762b1f2")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 130.81 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99b80a8-2f44-4ede-a1ee-ad016934ec51")
+		(property "Reference" "D6"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa48891-030c-41e1-ab0b-9988141e95ed")
+		)
+		(pin "2"
+			(uuid "332d19d2-6ab1-4444-91e1-35532b1c426b")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e353f4a9-8f89-49d6-a619-da10f3fcb6f8")
+		(property "Reference" "C19"
+			(at 80.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 80.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 78.4352 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "969aa8ee-dbd6-44d7-83b1-8a364dc14ff4")
+		)
+		(pin "1"
+			(uuid "d21499ba-c164-44fd-9286-4d3730377de7")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
