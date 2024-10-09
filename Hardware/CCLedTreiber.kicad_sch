@@ -1604,7 +1604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 150.8252 66.04 0)
 			(effects
 				(font
@@ -1680,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS34"
 			(at 130.81 52.07 0)
 			(effects
 				(font
