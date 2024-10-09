@@ -5319,7 +5319,7 @@
 		(path "/e24e956d-cdb9-431d-9e03-4ac2b4fd20aa")
 		(sheetname "Root")
 		(sheetfile "LEDTischLampe.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.27 1.27)
 			(end -1.905 1.27)
@@ -5637,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "3.3"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "92b29189-3e3a-490c-accc-5de12219e2bc")
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5688,9 +5688,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117/7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(sheetname "LedTreiber2")
-		(sheetfile "CCLedTreiber.kicad_sch")
+		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/37a1b0d8-3c73-439e-a636-530756e2b926")
+		(sheetname "LedsOben")
+		(sheetfile "LedsOben.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6853,6 +6853,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ccb6a28-d9d7-4e87-88a4-91dad01631d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "cd0829ae-dc12-43e9-9030-db40bae5ae1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,6 +13111,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25756"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "5dbe8456-f2a5-484a-aeff-9327fe0330fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/836ffeb0-6b20-43f9-8fe0-e27389ad7e5f")
 		(sheetname "Root")
@@ -15763,7 +15785,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "0.5"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "e04d2e40-e8e5-4426-b865-95110018eef3")
@@ -15800,7 +15822,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15814,9 +15836,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272/7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(sheetname "LedTreiber4")
-		(sheetfile "CCLedTreiber.kicad_sch")
+		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/8d073a13-44a6-43e9-a12d-b727856cf494")
+		(sheetname "LedsUnten")
+		(sheetfile "LedsUnten.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -21828,6 +21850,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "440c89aa-07e9-4063-9b39-90b7970814f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82507a99-7ef0-47c2-950a-d8a5dddbd060")
 		(sheetname "Root")
@@ -22513,6 +22546,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "926502a0-2566-4372-bcb5-907e8e5e5528")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ab6207ae-864b-4c15-be73-b457903186af")
 		(sheetname "Root")
@@ -22942,7 +22986,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "3.3"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "d88dee72-ea73-4f95-a305-ae650df51433")
@@ -22979,7 +23023,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22993,9 +23037,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c/7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(sheetname "LedTreiber5")
-		(sheetfile "CCLedTreiber.kicad_sch")
+		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/f72f7813-3985-407c-80de-dfdf0addeb52")
+		(sheetname "LedsOben")
+		(sheetfile "LedsOben.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -24025,7 +24069,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "3.3"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "4bf0efea-4de5-4316-a807-07fbf7fb1520")
@@ -24062,7 +24106,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24076,9 +24120,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7/7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(sheetname "LedTreiber3")
-		(sheetfile "CCLedTreiber.kicad_sch")
+		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/02a827ad-0281-4e0e-9a24-7c9e83fa3e04")
+		(sheetname "LedsOben")
+		(sheetfile "LedsOben.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -24484,7 +24528,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "3.3"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "9b6f1ccc-c599-4411-b551-af8e0d88cea5")
@@ -24521,7 +24565,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24535,9 +24579,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918/7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(sheetname "LedTreiber1")
-		(sheetfile "CCLedTreiber.kicad_sch")
+		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/d8d0bf42-2f2e-4176-b731-630816a11304")
+		(sheetname "LedsOben")
+		(sheetfile "LedsOben.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)

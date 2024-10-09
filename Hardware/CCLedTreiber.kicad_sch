@@ -461,127 +461,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LCSC:SY7200AABC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -786,16 +665,10 @@
 		(uuid "5792dd71-af98-47c6-a8e2-f4b2a5a52d2d")
 	)
 	(junction
-		(at 125.73 90.17)
+		(at 127 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a213a8a9-62b8-44c6-92eb-369c9a2a68b0")
-	)
-	(junction
-		(at 125.73 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a54bd1ef-82c3-4e1b-8656-3eeaaf5a816f")
+		(uuid "76a033de-207d-45ec-a8ec-cad8fa4d013d")
 	)
 	(junction
 		(at 125.73 55.88)
@@ -869,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 90.17) (xy 125.73 90.17)
+			(xy 90.17 90.17) (xy 149.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -879,13 +752,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 90.17) (xy 149.86 90.17)
+			(xy 127 73.66) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5489ba83-b7d3-4bb9-9dcd-ed640128f618")
+		(uuid "47dffa17-239a-4c2b-8c97-aa409f1c2aab")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52858f57-f3d3-42c3-9439-5ceb1542b5b4")
 	)
 	(wire
 		(pts
@@ -949,16 +832,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 125.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f49f81-34e2-45a2-b7f1-3cf0c1964823")
-	)
-	(wire
-		(pts
 			(xy 59.69 55.88) (xy 67.31 55.88)
 		)
 		(stroke
@@ -1019,16 +892,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 121.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ffa448-541d-468d-827f-cd55d5dad817")
-	)
-	(wire
-		(pts
 			(xy 91.44 68.58) (xy 88.9 68.58)
 		)
 		(stroke
@@ -1039,13 +902,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 125.73 90.17)
+			(xy 129.54 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6a6b98a-b455-46ff-85a3-affd291df7d6")
+		(uuid "b1c9fc90-737d-4bc1-aa8e-61dae44f4883")
 	)
 	(wire
 		(pts
@@ -1109,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 125.73 73.66)
+			(xy 121.92 73.66) (xy 127 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1156,6 +1019,18 @@
 			(type default)
 		)
 		(uuid "ebe6bb83-19fc-437b-a58e-d3535c3ddfb3")
+	)
+	(hierarchical_label "R_{sense}"
+		(shape input)
+		(at 129.54 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "022c0e9f-2ba9-4a27-9783-adfc13b86cb7")
 	)
 	(hierarchical_label "LEDP"
 		(shape input)
@@ -1485,92 +1360,6 @@
 				)
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
 					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8c317c-8d01-4fb1-8ad1-9bba1d869be6")
-		(property "Reference" "R8"
-			(at 128.27 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2"
-			(at 128.27 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.952 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "054d616c-d002-46a0-b35c-c1300ab7574b")
-		)
-		(pin "1"
-			(uuid "7bdf8ddf-ea9a-44f1-9420-69c1be9ee56e")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272"
-					(reference "R9")
 					(unit 1)
 				)
 			)
