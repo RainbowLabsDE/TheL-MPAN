@@ -327,6 +327,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6ade8b8c-f445-438c-bed8-7e6de7d491dc")
 			(effects
 				(font
@@ -552,6 +553,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0e19666b-146e-447d-b667-2d4267124798")
 			(effects
 				(font
@@ -718,8 +720,8 @@
 			(uuid "d9182046-7de9-4d6b-98d3-7ddbd7bd1a67")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -776,6 +778,7 @@
 		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9fec0541-2e5e-4757-b100-495cac0a961f")
 			(effects
 				(font
@@ -988,6 +991,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9eb1105f-0eb7-4c3e-ae92-5825fe8f733e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1254,6 +1270,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df3d2485-5617-4c7c-82b5-5a72de402e7a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1532,6 +1561,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "63d05f64-bf09-4aed-8c46-267b6643b5d3")
 			(effects
 				(font
@@ -1756,6 +1786,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c37a93ca-4089-4c57-932c-69e52eae1e6a")
 			(effects
 				(font
@@ -1994,6 +2025,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10141a63-f524-487f-bf18-6bb61ae2e39a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c/47864b90-e751-47fa-989d-4a9359fff3ec")
 		(sheetname "LedTreiber5")
@@ -2129,6 +2173,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b9d604c-c43f-46ff-ac7f-21db276d8203")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2399,6 +2456,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82f0c668-c657-42d8-872d-c3e71710c723")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/f068974b-80d9-4e58-8d21-4f516239479f")
 		(sheetname "Root")
@@ -2546,6 +2616,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e1d07ce6-2940-47d1-b353-afe540155bbe")
 			(effects
 				(font
@@ -2775,6 +2846,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C107309"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc07ef4-18a8-454e-8370-252c080a2fa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117/2b8de029-8e88-470f-a04d-dd241f47c32d")
 		(sheetname "LedTreiber2")
 		(sheetfile "CCLedTreiber.kicad_sch")
@@ -2979,6 +3063,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "faa8e0ca-efaf-49dd-a7d2-e3612d12a144")
 			(effects
 				(font
@@ -3196,6 +3281,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f01b1c63-bac3-4c9d-b938-9a9757dcc1c3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4111,6 +4209,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8b927bce-72f1-44b7-b29d-4c2b00050e75")
 			(effects
 				(font
@@ -4357,6 +4456,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f0b8a370-bd1c-409f-ab59-041aaf54196f")
 			(effects
 				(font
@@ -4581,6 +4681,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c17f9e8b-6169-408a-a85f-089506d2d2a7")
 			(effects
 				(font
@@ -4793,6 +4894,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef4d21dc-31c6-42ca-ac61-6b45bfb661da")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5071,6 +5185,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "56b5e09e-3316-426d-807f-11bb2cf3a208")
 			(effects
 				(font
@@ -5319,7 +5434,7 @@
 		(path "/e24e956d-cdb9-431d-9e03-4ac2b4fd20aa")
 		(sheetname "Root")
 		(sheetfile "LEDTischLampe.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -1.27 1.27)
 			(end -1.905 1.27)
@@ -5687,6 +5802,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C16257"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1b7e5c5-0ab3-43dc-af0b-5f17c7dc5608")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/37a1b0d8-3c73-439e-a636-530756e2b926")
 		(sheetname "LedsOben")
@@ -5891,6 +6019,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 112.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "260550b9-6102-4443-b569-460bc2daa778")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6169,6 +6310,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ec30b9b9-0308-430a-99bc-65e79aaee4cc")
 			(effects
 				(font
@@ -6415,6 +6557,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "623a6bee-887e-4f68-bfb0-a58f0ad8ec5a")
 			(effects
 				(font
@@ -6639,6 +6782,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "afe320ef-6775-4d21-8563-e3aae594866c")
 			(effects
 				(font
@@ -6863,6 +7007,7 @@
 		(property "LCSC" "C25792"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cd0829ae-dc12-43e9-9030-db40bae5ae1e")
 			(effects
 				(font
@@ -7087,6 +7232,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dfc39eb0-7f48-4cd2-a5b8-83311141591f")
 			(effects
 				(font
@@ -7311,6 +7457,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f9ad3d2c-edd8-4faa-80ab-62f121183c8c")
 			(effects
 				(font
@@ -7494,7 +7641,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
-			(at 0.000001 -1.65 22.5)
+			(at -2.759943 0.125574 22.5)
 			(layer "F.SilkS")
 			(uuid "393aff67-3e21-4a9c-a319-1f7fcfea798e")
 			(effects
@@ -7557,6 +7704,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3911e88b-878b-4535-9275-031f5fae955c")
 			(effects
 				(font
@@ -7781,6 +7929,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9fca4e16-58aa-41db-85f6-075627dbe394")
 			(effects
 				(font
@@ -8031,6 +8180,7 @@
 		(property "LCSC" "C8678"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a95e6355-236c-4d9a-94e0-4b8aa904ffbe")
 			(effects
 				(font
@@ -8264,13 +8414,13 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.17 90)
+			(at -0.092 1.1186 90)
 			(layer "F.SilkS")
 			(uuid "26d7f2dd-17ca-459b-8ff1-71573cf950d2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -8325,8 +8475,9 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 0 0 0)
+			(at -2.6574 1.652 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2ef614bf-f991-494c-ab6f-2c1af051cd28")
 			(effects
 				(font
@@ -8551,6 +8702,7 @@
 		(property "LCSC" "C84256"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4c05c857-3be4-4eb0-83cb-7efcd7db0a1d")
 			(effects
 				(font
@@ -8797,6 +8949,7 @@
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7709ed60-864b-4e9c-bd64-51fcee6b5a7f")
 			(effects
 				(font
@@ -9019,6 +9172,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b568931a-abcd-4ca2-a4d8-356f3c188e8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C107309"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ecd4821-9087-4132-98af-16d489e48c93")
 			(effects
 				(font
 					(size 1 1)
@@ -9256,6 +9422,7 @@
 		(property "LCSC" "C8678"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d172ba7f-25b8-4c96-bc6f-e6dfb8d8d7c2")
 			(effects
 				(font
@@ -9552,6 +9719,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fed9f1e9-f966-48ea-9656-0b4c607f121d")
 			(effects
 				(font
@@ -9798,6 +9966,7 @@
 		(property "LCSC" "C318884"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "49379e91-637a-4188-b696-6d6bdc8ed494")
 			(effects
 				(font
@@ -10382,6 +10551,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C784540"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5ab1720-03a4-45a4-90b3-0fc9787d5645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/82939db0-4c9b-494a-bcb8-30faca014af2")
 		(sheetname "LedsOben")
@@ -10656,6 +10838,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f7ecc4b9-3bb1-404b-96aa-504e2ce0af65")
 			(effects
 				(font
@@ -10880,6 +11063,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "409d4633-9b3c-4073-84de-31e30e524269")
 			(effects
 				(font
@@ -11096,6 +11280,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6293c5f3-146b-4f7d-8312-d2635d0e8996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918/47864b90-e751-47fa-989d-4a9359fff3ec")
 		(sheetname "LedTreiber1")
@@ -11243,6 +11440,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bf91f82d-6178-470c-bc2c-c6c15b84523f")
 			(effects
 				(font
@@ -11489,6 +11687,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5afcda2e-e5d2-497a-ba59-b8d5a5ad0c56")
 			(effects
 				(font
@@ -11739,6 +11938,7 @@
 		(property "LCSC" "C8678"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "be38835c-0439-461e-a30e-79c1f470bd26")
 			(effects
 				(font
@@ -12261,6 +12461,7 @@
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ac3bd868-b6f5-43f2-93be-f92610d2a1b4")
 			(effects
 				(font
@@ -12477,6 +12678,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e30ac1c-9f58-49f4-8861-cf06704654b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272/47864b90-e751-47fa-989d-4a9359fff3ec")
 		(sheetname "LedTreiber4")
@@ -12612,6 +12826,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 157.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81a8133a-151e-45b1-aeb4-3e45d6fa1ec8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12890,6 +13117,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2f785707-3ba8-4c17-b524-7f3c6f42cc49")
 			(effects
 				(font
@@ -13114,6 +13342,7 @@
 		(property "LCSC" "C25756"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5dbe8456-f2a5-484a-aeff-9327fe0330fd")
 			(effects
 				(font
@@ -13275,7 +13504,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 0)
+			(at -2.4788 0.0448 0)
 			(layer "F.SilkS")
 			(uuid "d0a6c331-d88a-4041-94bc-3b0a92d62601")
 			(effects
@@ -13338,6 +13567,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6b273010-9633-4dee-a875-141cfd792c2b")
 			(effects
 				(font
@@ -13588,6 +13818,7 @@
 		(property "LCSC" "C8678"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "92d579d2-216f-4e6f-b785-6a6c17744bf1")
 			(effects
 				(font
@@ -13889,6 +14120,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C107309"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6994160-b97d-466c-b0ea-a79c294c8450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2a7edb5c-7ef0-4d35-9613-2c0a7f441272/2b8de029-8e88-470f-a04d-dd241f47c32d")
 		(sheetname "LedTreiber4")
 		(sheetfile "CCLedTreiber.kicad_sch")
@@ -14085,6 +14329,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43ee7629-6704-4aed-8c52-856569bbe205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117/47864b90-e751-47fa-989d-4a9359fff3ec")
 		(sheetname "LedTreiber2")
@@ -14225,6 +14482,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 0 0 -123.75)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f36f480-2213-4025-ac4a-3d9cf7bcb6b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14387,8 +14657,8 @@
 			(uuid "0de73015-16d1-4b9d-8569-648f4c349425")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14445,6 +14715,7 @@
 		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a53cd84f-491d-4698-9986-ea9c78e3a586")
 			(effects
 				(font
@@ -14669,6 +14940,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c26c7182-8211-4ae4-9d93-fcf6dd69ffec")
 			(effects
 				(font
@@ -14893,6 +15165,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0191d537-8b57-4a28-93e3-15a483faad9c")
 			(effects
 				(font
@@ -15117,6 +15390,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b136edf4-5553-4466-9dba-d4b954d5fe9b")
 			(effects
 				(font
@@ -15368,6 +15642,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C107309"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27edd2e9-60e4-4762-bcc0-113d5a21ae24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/3158ee75-269d-4678-a09e-d51dcc288918/2b8de029-8e88-470f-a04d-dd241f47c32d")
 		(sheetname "LedTreiber1")
 		(sheetfile "CCLedTreiber.kicad_sch")
@@ -15560,6 +15847,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 157.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "062c597f-e738-408d-a226-a06933f0f37e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15835,6 +16135,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2930328"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "076434b4-c847-488b-a990-91084e8676c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/8d073a13-44a6-43e9-a12d-b727856cf494")
 		(sheetname "LedsUnten")
@@ -15993,8 +16306,8 @@
 			(uuid "35178378-2dc0-49b8-830f-8b6168afbe06")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -16051,6 +16364,7 @@
 		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "43177bcf-68d5-461b-8b91-e95fdba7ae3c")
 			(effects
 				(font
@@ -16267,6 +16581,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C784540"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bb23577-3b89-45d6-8ace-02637461c855")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/2232ddf7-e2b0-4f9a-8af3-53e825ed0366")
 		(sheetname "LedsOben")
@@ -16478,7 +16805,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R32"
-			(at 0.08 -1.573801 22.5)
+			(at -2.644904 0.011949 22.5)
 			(layer "F.SilkS")
 			(uuid "52c36645-2c92-4331-b1fe-8588b2a07a21")
 			(effects
@@ -16541,6 +16868,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8a6baed8-96fa-4a3b-b98c-b1862ada48a1")
 			(effects
 				(font
@@ -16765,6 +17093,7 @@
 		(property "LCSC" "C370876"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a072c9c9-a7e7-4f9c-ab37-31b8dd2603d0")
 			(effects
 				(font
@@ -17072,6 +17401,7 @@
 		(property "LCSC" "C2296"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "034c15d8-5e76-4a67-9ff4-b3c04c50f1ca")
 			(effects
 				(font
@@ -17318,6 +17648,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8a8902de-c631-4245-88df-7701aef32c7d")
 			(effects
 				(font
@@ -17564,6 +17895,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7988b63a-3b1e-420a-a817-035bd20e43ff")
 			(effects
 				(font
@@ -17810,6 +18142,7 @@
 		(property "LCSC" "C52306"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "76b64088-b8a2-460d-89ee-989190e46c52")
 			(effects
 				(font
@@ -18034,6 +18367,7 @@
 		(property "LCSC" "C2297"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "852c799e-7d5d-4cfc-a436-e2b027879e4e")
 			(effects
 				(font
@@ -18285,6 +18619,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C107309"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6884d252-8e6d-4cd4-b6a7-a9218949e2b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/caa9cf2f-0db8-4b11-940e-edce255a092c/2b8de029-8e88-470f-a04d-dd241f47c32d")
 		(sheetname "LedTreiber5")
 		(sheetfile "CCLedTreiber.kicad_sch")
@@ -18489,6 +18836,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "162afa1f-b3a0-4862-844c-6b55cbe2bf28")
 			(effects
 				(font
@@ -18672,7 +19020,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R30"
-			(at 0.000001 -1.65 22.5)
+			(at -2.641542 0.001219 22.5)
 			(layer "F.SilkS")
 			(uuid "cf617c53-eb91-43c6-a568-0a40e9568bff")
 			(effects
@@ -18735,6 +19083,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0829c6d6-d2bd-4af2-b508-0bf4b9e5f3f9")
 			(effects
 				(font
@@ -18947,6 +19296,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c40f44d4-8159-491d-8aa2-3d44662c4c69")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19217,6 +19579,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C784540"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c523cd6-3ac0-4f26-b257-a9155d5584ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/d4531b62-3468-4d07-8d02-aca46aab7184")
 		(sheetname "LedsOben")
@@ -19483,6 +19858,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bb8da5a-a371-40df-8121-c1db51389ef9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/fb3a6902-adb0-42f5-a319-4ea74339d4c7/47864b90-e751-47fa-989d-4a9359fff3ec")
 		(sheetname "LedTreiber3")
@@ -19567,13 +19955,13 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.17 -90)
+			(at 2.131 -0.0254 -90)
 			(layer "F.SilkS")
 			(uuid "d8bcb240-592a-42f0-89ab-64b011c868cd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -19630,6 +20018,7 @@
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8f8c79ba-5bf0-4349-bf92-e9e09f661367")
 			(effects
 				(font
@@ -19854,6 +20243,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5097e0c2-3135-4e7f-bf51-fa05f3930763")
 			(effects
 				(font
@@ -20116,6 +20506,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f75b1e4-d4af-489e-9a35-eaa481c75dc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2dab02a-b1ee-44b6-9c9b-72454a535b2c")
 			(effects
 				(font
 					(size 1 1)
@@ -20400,6 +20803,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2927038"
+			(at 0 0 146.25)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea4736d-8142-4708-b16d-e75b2f4027e5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20708,7 +21124,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
-			(at 0 -1.65 0)
+			(at -2.6058 -0.0118 0)
 			(layer "F.SilkS")
 			(uuid "893bb86f-2151-4cfd-90c5-c516fe5a28c5")
 			(effects
@@ -20771,6 +21187,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7e01cd33-e46a-4721-8c76-12825315b489")
 			(effects
 				(font
@@ -20983,6 +21400,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74f068bb-ee8a-4456-92d1-f8da465a8c97")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21261,6 +21691,7 @@
 		(property "LCSC" "C318884"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6cdc64a3-ff09-4d32-8ecb-36a4c2046e3b")
 			(effects
 				(font
@@ -21853,6 +22284,7 @@
 		(property "LCSC" "C25741"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "440c89aa-07e9-4063-9b39-90b7970814f2")
 			(effects
 				(font
@@ -22549,6 +22981,7 @@
 		(property "LCSC" "C25905"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "926502a0-2566-4372-bcb5-907e8e5e5528")
 			(effects
 				(font
@@ -22761,6 +23194,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 112.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb78919-af08-4d3a-be2c-253f49502712")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23036,6 +23482,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C16257"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa303032-6e32-4591-bf49-0a686db78feb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/f72f7813-3985-407c-80de-dfdf0addeb52")
 		(sheetname "LedsOben")
@@ -23240,6 +23699,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d4c46e7-87a8-4db3-bcc9-1ffea51e6bf6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23460,8 +23932,8 @@
 			(uuid "d8b17674-7434-46e9-bb83-f3601174347a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -23518,6 +23990,7 @@
 		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b972fbde-d093-4594-a5b3-3499e7228dc5")
 			(effects
 				(font
@@ -23848,6 +24321,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C784540"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcd3f00d-916c-4df9-bdbc-707b357adcbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/72b3ac8d-430a-419c-8686-632cdb2a21db")
 		(sheetname "LedsOben")
@@ -24119,6 +24605,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C16257"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "718fd17f-9bc8-40aa-896d-642ba306462e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/02a827ad-0281-4e0e-9a24-7c9e83fa3e04")
 		(sheetname "LedsOben")
@@ -24335,6 +24834,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c1d8349a-3941-41b4-9b93-0e2c9112b136")
 			(effects
 				(font
@@ -24578,6 +25078,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C16257"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c37545ba-9a42-4a05-98eb-26624b200559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/510bc110-0bc9-4ffc-b901-498b8c9eef65/d8d0bf42-2f2e-4176-b731-630816a11304")
 		(sheetname "LedsOben")
@@ -24794,6 +25307,7 @@
 		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e631531c-1b51-4370-b6cf-6858a8f32949")
 			(effects
 				(font
@@ -24960,8 +25474,8 @@
 			(uuid "fb01276a-19b3-44be-8a3a-59fef4e0e7d0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -25018,6 +25532,7 @@
 		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8fafcf49-4b2f-4af2-892e-17b121275768")
 			(effects
 				(font
@@ -25235,6 +25750,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C471913"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be88f3d1-aefd-46fa-bca3-57398f173d21")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25606,6 +26134,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "466ddd98-c32e-4721-8f70-0ee51dd3aec2")
 			(effects
 				(font
@@ -25789,7 +26318,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R28"
-			(at 0 -1.65 180)
+			(at -2.6312 -0.0494 180)
 			(layer "F.SilkS")
 			(uuid "3b743fd3-bcf0-4f00-86c0-6049067f39d4")
 			(effects
@@ -25852,6 +26381,7 @@
 		(property "LCSC" "C17561"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cefc5e77-5af6-416a-81c6-9b02472ba4d3")
 			(effects
 				(font
@@ -26064,6 +26594,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C784540"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15247cd4-c3b9-485f-866e-3d3b3f27e8a9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26342,6 +26885,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "54a4e3ae-2812-46bd-9f2f-763bc5f4cdc1")
 			(effects
 				(font
@@ -26614,6 +27158,7 @@
 		(property "LCSC" "C8678"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6cc11b62-f3e5-414a-a929-215d3c7b59ec")
 			(effects
 				(font
@@ -26910,6 +27455,7 @@
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "59dbb48b-532a-4821-b77b-82e595b65c15")
 			(effects
 				(font
@@ -27134,6 +27680,7 @@
 		(property "LCSC" "C264473"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b99c40a2-af93-4028-ab41-73b633789299")
 			(effects
 				(font
@@ -27391,6 +27938,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5c3fcc4d-c7a3-4717-a734-6c9009b6bb82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/48d81ce1-6f58-42ab-ae6a-de6cce57ff1c")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -27561,6 +28122,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d45372db-e661-4d87-8fcc-f55b3aa9faab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 33.75)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ace436e-0f8b-46d1-adf4-50466b320ccd")
 			(effects
 				(font
 					(size 1 1)
@@ -27747,6 +28322,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46ff368f-700d-4298-b014-ec234e57a3b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/68043937-1f98-43c0-b1cd-9de8a2622e9f")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -27917,6 +28506,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f26cfcd2-b60f-4839-ab64-08feffa34d1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 -56.25)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e82776d-40e5-4487-bd0d-1cd49da83f14")
 			(effects
 				(font
 					(size 1 1)
@@ -28103,6 +28706,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 -22.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "390efa2b-14a9-4f03-948d-870076abf990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/cbbb3e8c-96be-4f93-8946-1fb3d480e2f8")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -28273,6 +28890,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "731142d2-8ab8-434d-bc6e-6bc375bb2801")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ca154a5-448e-4dd9-bb8b-342c6a4c1f46")
 			(effects
 				(font
 					(size 1 1)
@@ -28459,6 +29090,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd5e5d5e-b2e9-4fdf-9995-65030932c005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/5c0a1ff6-b549-4d23-873b-b5b39e067d63")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -28629,6 +29274,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b3e43736-25fa-4edf-b2fc-cfb80fa3e840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74f7f682-0d66-455c-9fb8-8505b89529ed")
 			(effects
 				(font
 					(size 1 1)
@@ -28815,6 +29474,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6cedd1e5-8263-43dc-bafe-785afb5966b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/d4fb63a0-06f0-4d00-8077-a6a2cc46bba2")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -28985,6 +29658,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f682aa88-5255-4ad1-9d59-95825f65d5e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad2a48c7-ad23-4f4b-a583-4ad7a90ec2e7")
 			(effects
 				(font
 					(size 1 1)
@@ -29171,6 +29858,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 123.75)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5571d3d5-ff79-4a26-8179-06da30474b39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/cd8591da-2935-4be9-9c05-e7bd56f1134f")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -29341,6 +30042,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70363bb5-e075-4256-b576-f29ff32894c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "829186c7-4bd2-4c12-90c0-fb9ddb973c28")
 			(effects
 				(font
 					(size 1 1)
@@ -29527,6 +30242,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2b52c75-296d-460e-9708-dc970eef3507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/fa687202-20d4-40fb-9f9f-8a45beadd917")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -29699,6 +30428,7 @@
 		(property "LCSC" "C17415"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b594b330-75a4-4100-a0a1-c36bcd5cc6d6")
 			(effects
 				(font
@@ -29935,6 +30665,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8f9f1de-83ef-4ce3-8c36-494836f16daa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/7734b13f-6afa-41e1-b209-83c4ab960dc5")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -30105,6 +30849,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "86ab96be-d37e-4993-87fa-149254877dab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 -22.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5a9b24ea-40fb-4379-8673-0153260be0c9")
 			(effects
 				(font
 					(size 1 1)
@@ -30291,6 +31049,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 112.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ebce3e73-209e-43b7-aaf3-44ca0085e9e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/2c9d0b2f-ab73-4092-89c7-e58f731bb937")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -30461,6 +31233,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ec6daa9e-cf75-407c-af37-eb99f12e7045")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05d4aaf6-c3d3-4027-98ea-bf9a88f24dfc")
 			(effects
 				(font
 					(size 1 1)
@@ -30647,6 +31433,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 -146.25)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7d9a992-3637-4052-a51f-ea9dafbd3914")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/88a9014d-0937-4a27-ab59-ac24123728ba")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -30817,6 +31617,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1bbacbf5-9d46-416a-8ee5-2efcf9436bba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 -11.25)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfc68bd6-34c9-42e7-b646-a33b646e1727")
 			(effects
 				(font
 					(size 1 1)
@@ -31003,6 +31817,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 78.75)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "28f51da4-c0a7-4bc9-9807-65adab748825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/05a6f40e-a250-4ef8-9592-c84830e60bcc")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -31175,6 +32003,7 @@
 		(property "LCSC" "C17415"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9b7baea0-ef35-4b09-9146-d6094a31d9ad")
 			(effects
 				(font
@@ -31411,6 +32240,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 112.5)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4dd534c4-3f11-4cca-9eed-23f7996ec440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/020379b2-3b57-4beb-81ed-338b14a1f828")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -31581,6 +32424,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c2b56891-f5df-4367-948c-50b4f7fce346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8c4b374-bc5d-462b-ad68-163350b6ef55")
 			(effects
 				(font
 					(size 1 1)
@@ -31761,6 +32618,7 @@
 		(property "LCSC" "C17415"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "61f2b9c9-352b-40c6-948c-0f1c420fc5da")
 			(effects
 				(font
@@ -31997,6 +32855,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C210320"
+			(at 0 0 168.75)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fddb993a-5646-4e40-9c5c-82fc9f3d6a4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5ca28fd6-5d3d-44e4-a7e8-e548f0114941/6155397b-a068-4c57-b5af-6bef404e4312")
 		(sheetname "LedsUnten")
 		(sheetfile "LedsUnten.kicad_sch")
@@ -32167,6 +33039,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "19501a3a-f7e0-4459-981c-b1f830317e48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C210320"
+			(at 0 0 -101.25)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "289a8637-0297-42a2-9dc8-daa059dde4b2")
 			(effects
 				(font
 					(size 1 1)

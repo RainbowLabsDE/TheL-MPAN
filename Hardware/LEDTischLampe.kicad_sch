@@ -5418,6 +5418,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 73.66 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "825c7238-61cb-44b3-9fa0-c9f40c442b19")
 		)
@@ -5480,6 +5489,15 @@
 		)
 		(property "Description" ""
 			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,6 +5770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9fc7acf-198c-49bd-bf0f-89944de31782")
 		)
@@ -5888,6 +5915,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 43.18 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cd262ca-084e-45fd-902d-167e850f8ddc")
 		)
@@ -5950,6 +5986,15 @@
 		)
 		(property "Description" ""
 			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52306"
+			(at 81.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,6 +6138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C471913"
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "91d15652-932c-45b4-adc4-3a0c144d057b")
 		)
@@ -6163,6 +6217,15 @@
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2927038"
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,6 +6341,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52306"
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf7ba987-b282-4de5-82c6-d4f7824bf08e")
 		)
@@ -6341,6 +6413,15 @@
 		)
 		(property "Description" ""
 			(at 31.75 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 34.29 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,6 +6622,15 @@
 		)
 		(property "Description" ""
 			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 102.87 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,6 +7038,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 72.39 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85512faa-7d8a-4f7c-8924-6f8df5a7a1e9")
 		)
@@ -7149,6 +7248,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 50.8 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90f8fe40-84ae-45d0-bee9-c4ac052820fd")
 		)
@@ -7219,6 +7327,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25756"
+			(at 128.27 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f09217c5-0bcb-44c1-a78c-a2505bb8ccdd")
 		)
@@ -7282,6 +7399,15 @@
 		)
 		(property "Description" ""
 			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 113.03 175.5774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,6 +7543,15 @@
 		)
 		(property "Description" ""
 			(at 31.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 20.32 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,6 +7826,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f9ef8b4-8f2c-48ea-8690-86582911b19f")
 		)
@@ -7754,6 +7898,15 @@
 		)
 		(property "Description" ""
 			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 128.27 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,6 +8049,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2296"
+			(at 102.87 175.5774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8c7cc30-b2ee-46b6-8efd-041e318ae5e7")
 		)
@@ -7956,6 +8118,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C370876"
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,6 +8209,15 @@
 		)
 		(property "Description" ""
 			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 111.76 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,6 +8376,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8678"
+			(at 123.19 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "127858c4-b679-4b02-a0ca-217a7f9dfb00")
 		)
@@ -8266,6 +8455,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 162.56 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "add56740-c45d-411f-9c94-8043f2ab982d")
 		)
@@ -8325,6 +8523,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 128.27 106.68 0)
 			(effects
 				(font
@@ -8528,6 +8735,15 @@
 		)
 		(property "Description" ""
 			(at 99.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 101.6 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,6 +9151,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 64.77 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2b17dce-7590-495d-bfff-eac9c05d505c")
 		)
@@ -9078,6 +9303,15 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 50.8 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 52.9941 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,6 +9567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5832376"
+			(at 117.602 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bacc89c-8e56-48bf-a5ab-ceacebabfd1b")
 		)
@@ -9396,6 +9639,15 @@
 		)
 		(property "Description" ""
 			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 163.83 43.4974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
