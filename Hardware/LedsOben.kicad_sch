@@ -1871,7 +1871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16257"
+		(property "LCSC" "C25271"
 			(at 86.36 41.9099 0)
 			(effects
 				(font
@@ -2693,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16257"
+		(property "LCSC" "C25271"
 			(at 86.36 71.1199 0)
 			(effects
 				(font
@@ -3865,7 +3865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16257"
+		(property "LCSC" "C25271"
 			(at 86.36 102.8699 0)
 			(effects
 				(font
