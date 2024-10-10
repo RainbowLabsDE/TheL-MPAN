@@ -5,712 +5,6 @@
 	(uuid "551108cf-4a91-4dfe-a9e1-caab53c69e8c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:LED_RGB"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_RGB"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED, 6 pin package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED RGB diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_RGB_0_0"
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LED_RGB_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LED_RGB_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "RK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "BA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "GA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "RA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -954,6 +248,479 @@
 				)
 			)
 		)
+		(symbol "LCSC:TC5053RGBE60-3CJH-GF09"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC5053RGBE60-3CJH-GF09"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C784542"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC5053RGBE60-3CJH-GF09_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.3) (xy 1.27 -6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy 1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.86) (xy 1.27 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.29 -1.52) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.29 3.56) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 2.29 8.64) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 -3.56) (xy 3.3 -2.54) (xy 2.29 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 1.52) (xy 3.3 2.54) (xy 2.29 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 6.6) (xy 3.3 7.62) (xy 2.29 6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.3) (xy 1.27 -5.08) (xy -1.27 -6.86) (xy -1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.78) (xy 1.27 0) (xy -1.27 -1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.86) (xy 1.27 5.08) (xy -1.27 3.3) (xy -1.27 6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 -0.76) (xy 2.03 -1.27) (xy 2.54 -1.78) (xy 3.05 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 4.32) (xy 2.03 3.81) (xy 2.54 3.3) (xy 3.05 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 9.4) (xy 2.03 8.89) (xy 2.54 8.38) (xy 3.05 9.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.06 -1.78) (xy 3.05 -2.29) (xy 3.56 -2.79) (xy 4.06 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.06 3.3) (xy 3.05 2.79) (xy 3.56 2.29) (xy 4.06 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.06 8.38) (xy 3.05 7.87) (xy 3.56 7.37) (xy 4.06 8.38)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "VCC_1"
 			(power)
 			(pin_numbers hide)
@@ -1178,12 +945,6 @@
 		(uuid "5e8b9c89-48dc-49cc-ac48-92edfef932e1")
 	)
 	(junction
-		(at 217.17 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66ba20bf-d13a-4e63-8f83-a748440c2697")
-	)
-	(junction
 		(at 140.97 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1206,12 +967,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4eb9a81-723d-40e3-a3cb-a3250479bdbc")
-	)
-	(junction
-		(at 217.17 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f53327e0-1d75-4d59-b1e3-7a2f85be6eb4")
 	)
 	(junction
 		(at 130.81 69.85)
@@ -1271,16 +1026,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 34.29) (xy 217.17 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16bed9ac-a6cb-4ad3-9ca8-ff26eb8496d7")
-	)
-	(wire
-		(pts
 			(xy 52.07 30.48) (xy 52.07 33.02)
 		)
 		(stroke
@@ -1298,36 +1043,6 @@
 			(type default)
 		)
 		(uuid "23c7e45f-5471-42d0-b705-c3510f325db7")
-	)
-	(wire
-		(pts
-			(xy 208.28 44.45) (xy 208.28 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24da821b-bfea-45d9-b35d-d611c20a5435")
-	)
-	(wire
-		(pts
-			(xy 207.01 40.64) (xy 207.01 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d5bce3-6b86-486a-a6ae-79af6fdd184a")
-	)
-	(wire
-		(pts
-			(xy 229.87 105.41) (xy 229.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab459bd-1fde-426a-badc-dfac1552cdd9")
 	)
 	(wire
 		(pts
@@ -1421,16 +1136,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 167.64 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e1ab81-a038-48e2-b182-4ecd5506c19e")
-	)
-	(wire
-		(pts
 			(xy 160.02 168.91) (xy 160.02 176.53)
 		)
 		(stroke
@@ -1461,36 +1166,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 40.64) (xy 170.18 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550f3046-4f2e-4b15-ab24-caeca39f9eaf")
-	)
-	(wire
-		(pts
-			(xy 229.87 36.83) (xy 229.87 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553c0521-6858-4937-b35a-7e1979cf7e32")
-	)
-	(wire
-		(pts
-			(xy 217.17 113.03) (xy 217.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598b5f11-10a1-47f6-907a-1dec42a2eed3")
-	)
-	(wire
-		(pts
 			(xy 52.07 40.64) (xy 52.07 41.91)
 		)
 		(stroke
@@ -1498,16 +1173,6 @@
 			(type default)
 		)
 		(uuid "6168a2d0-62b9-4dab-9b5e-777f8b13b22c")
-	)
-	(wire
-		(pts
-			(xy 167.64 38.1) (xy 167.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67829a71-54da-45e5-8ea8-d91812529ce2")
 	)
 	(wire
 		(pts
@@ -1608,36 +1273,6 @@
 			(type default)
 		)
 		(uuid "89149de2-da17-4cb6-88d8-4707efb55e49")
-	)
-	(wire
-		(pts
-			(xy 217.17 34.29) (xy 217.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b134a70-b04f-470b-84c5-8bd9e933133c")
-	)
-	(wire
-		(pts
-			(xy 186.69 48.26) (xy 199.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b20188b-ab5a-411b-a365-3171fd986be3")
-	)
-	(wire
-		(pts
-			(xy 186.69 44.45) (xy 208.28 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b564c29-a8a2-4a0e-b14a-2925a33b1416")
 	)
 	(wire
 		(pts
@@ -1821,16 +1456,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 113.03) (xy 217.17 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beee4574-e1fe-4a9a-845d-869e2dfdfda0")
-	)
-	(wire
-		(pts
 			(xy 118.11 69.85) (xy 130.81 69.85)
 		)
 		(stroke
@@ -1848,16 +1473,6 @@
 			(type default)
 		)
 		(uuid "c227cb07-4ebe-42f6-95f0-2cde1577e3ca")
-	)
-	(wire
-		(pts
-			(xy 229.87 113.03) (xy 217.17 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4df6713-7c32-4c1d-bb15-fd3209028889")
 	)
 	(wire
 		(pts
@@ -1881,16 +1496,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 34.29) (xy 217.17 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8dc26d-d381-477c-9eba-2e8f8d6d4641")
-	)
-	(wire
-		(pts
 			(xy 91.44 36.83) (xy 91.44 53.34)
 		)
 		(stroke
@@ -1908,26 +1513,6 @@
 			(type default)
 		)
 		(uuid "e453c6de-fb5a-4a11-8353-047a9fe7d70b")
-	)
-	(wire
-		(pts
-			(xy 186.69 40.64) (xy 207.01 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7609321-fbdf-4aba-9b28-28b9cde89779")
-	)
-	(wire
-		(pts
-			(xy 163.83 44.45) (xy 170.18 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe100e4-8138-4cbf-b76d-0eb5f2ce9441")
 	)
 	(wire
 		(pts
@@ -2001,16 +1586,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 167.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0f8b92-5d1f-4ba4-8912-daa5766588e6")
-	)
-	(wire
-		(pts
 			(xy 54.61 101.6) (xy 52.07 101.6)
 		)
 		(stroke
@@ -2019,27 +1594,16 @@
 		)
 		(uuid "ff82f003-0975-4508-9903-7c8ea7903585")
 	)
-	(global_label "ADim"
-		(shape input)
-		(at 163.83 44.45 180)
-		(fields_autoplaced yes)
+	(text "I = 0.2V/R_{sense}\n=> 1R -> 0.2A"
+		(exclude_from_sim no)
+		(at 60.706 49.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4109d25d-108f-4a0a-850b-eb8e87e429c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1881 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "95ea4d6d-8bee-4b3e-8787-65028290ecce")
 	)
 	(global_label "GDim"
 		(shape input)
@@ -2192,7 +1756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 157.48 82.5499 0)
 			(effects
 				(font
@@ -2228,7 +1792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 157.48 80.0099 0)
 			(effects
 				(font
@@ -2271,7 +1835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "1"
 			(at 86.36 44.4499 0)
 			(effects
 				(font
@@ -2332,8 +1896,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 133.35 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2342,32 +1906,25 @@
 		(fields_autoplaced yes)
 		(uuid "034040ed-462d-4f78-9dc9-a6bae7527405")
 		(property "Reference" "D20"
-			(at 172.72 133.35 0)
+			(at 170.18 132.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 133.35 0)
+			(at 170.18 135.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 133.35 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +1932,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 133.35 0)
 			(effects
 				(font
@@ -2385,7 +1951,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,6 +1976,9 @@
 		)
 		(pin "5"
 			(uuid "036a33af-fe12-4eed-a7d7-59641c781fd8")
+		)
+		(pin "7"
+			(uuid "973b10ca-72dd-4196-a615-7b7273a514ca")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -2439,7 +2008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 133.35 82.5499 0)
 			(effects
 				(font
@@ -2475,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 133.35 80.0099 0)
 			(effects
 				(font
@@ -2500,8 +2069,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 133.35 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2510,32 +2079,25 @@
 		(fields_autoplaced yes)
 		(uuid "0ab84e41-8250-4014-8909-84df1bd7f005")
 		(property "Reference" "D13"
-			(at 148.59 133.35 0)
+			(at 146.05 132.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 133.35 0)
+			(at 146.05 135.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 133.35 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2105,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 133.35 0)
 			(effects
 				(font
@@ -2553,7 +2124,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 133.35 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,6 +2149,9 @@
 		)
 		(pin "5"
 			(uuid "a17af1fa-0a54-47ae-8366-a87678e1f9f6")
+		)
+		(pin "7"
+			(uuid "56ec4006-9b46-4523-8c46-6291014b19be")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -2607,7 +2181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 167.64 82.5499 0)
 			(effects
 				(font
@@ -2643,7 +2217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 167.64 80.0099 0)
 			(effects
 				(font
@@ -2686,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 162.56 82.5499 0)
 			(effects
 				(font
@@ -2722,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 162.56 80.0099 0)
 			(effects
 				(font
@@ -2747,152 +2321,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14614d37-0082-4c57-bb60-810c853b8f87")
-		(property "Reference" "D27"
-			(at 220.98 56.1974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 58.7374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 56.1974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f5e6e4b-bb0b-49d3-999e-6d04b6c1759b")
-		)
-		(pin "1"
-			(uuid "39b63f7e-66f8-498f-981d-272ecd5e052a")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a3b86dc-41e3-431f-830a-184dee4abe6a")
-		(property "Reference" "#PWR024"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1851e13-6142-4d70-8de3-263aeb9526c6")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 153.67 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2901,32 +2331,25 @@
 		(fields_autoplaced yes)
 		(uuid "21e0f939-6797-433e-a726-4c66659a9c5e")
 		(property "Reference" "D15"
-			(at 148.59 153.67 0)
+			(at 146.05 153.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 153.67 0)
+			(at 146.05 155.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 153.67 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +2357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -2944,7 +2376,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 153.67 0)
+			(at 123.19 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,6 +2402,9 @@
 		(pin "5"
 			(uuid "4a8d6e71-afd5-413d-93fe-f1b4f620b8c4")
 		)
+		(pin "7"
+			(uuid "31d9e35c-f9fe-4f5f-b124-f246f7b33ab7")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -2980,8 +2415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 113.03 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2990,32 +2425,25 @@
 		(fields_autoplaced yes)
 		(uuid "2232ddf7-e2b0-4f9a-8af3-53e825ed0366")
 		(property "Reference" "D11"
-			(at 148.59 113.03 0)
+			(at 146.05 112.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 113.03 0)
+			(at 146.05 115.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 113.03 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +2451,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 113.03 0)
 			(effects
 				(font
@@ -3033,7 +2470,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 113.03 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,168 +2496,13 @@
 		(pin "5"
 			(uuid "e65dda61-ef06-4415-9324-711a7b7b8c40")
 		)
+		(pin "7"
+			(uuid "4e8a2a79-ec6f-4f52-b435-0019ff36b590")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24cff37f-cc29-4321-b196-847a182dc5d0")
-		(property "Reference" "D33"
-			(at 220.98 101.9174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 104.4574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 101.9174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc0be071-fddb-4828-95ea-fcc822a2c500")
-		)
-		(pin "1"
-			(uuid "fb6c10a2-94b2-4384-a45b-d54e20c19f66")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bf87315-75ba-4f0e-a077-7f831ce0e7d4")
-		(property "Reference" "D36"
-			(at 233.68 56.1974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 58.7374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 56.1974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6236834b-8138-409e-8cd1-156df5a413f3")
-		)
-		(pin "1"
-			(uuid "4d2ca30c-4b9f-4f63-b9da-669d43762d65")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -3292,85 +2574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 229.87 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f7d1e3b-bad1-46bc-8fb6-d1937809abc4")
-		(property "Reference" "R18"
-			(at 232.41 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 232.41 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 228.092 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17561"
-			(at 232.41 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "724953ed-5b2d-40f6-a459-dfb0af7b25b8")
-		)
-		(pin "2"
-			(uuid "ee6c9147-7d50-47ea-9099-8ac14ba7a624")
-		)
-		(instances
-			(project ""
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 74.93 0)
 		(unit 1)
@@ -3436,85 +2639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "357e9a47-bf9f-40d3-8b00-70d7a74c5809")
-		(property "Reference" "D32"
-			(at 220.98 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 94.2974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df9219a5-e897-4807-9c36-32ff65cc3c25")
-		)
-		(pin "1"
-			(uuid "1ff7402c-25fe-47de-9d05-ace020afa63b")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 83.82 72.39 0)
 		(unit 1)
@@ -3533,7 +2657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "1"
 			(at 86.36 73.6599 0)
 			(effects
 				(font
@@ -3660,245 +2784,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c2a8540-5a51-48aa-b116-882f6a0c1ac9")
-		(property "Reference" "D39"
-			(at 233.68 79.0574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 79.0574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "303451db-6e22-407f-aaf4-7dc530bb6dcc")
-		)
-		(pin "1"
-			(uuid "349f4f73-b941-4157-9cc8-1b7bce5bd331")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "526712a1-95a7-40d8-ad92-ae717c259e1b")
-		(property "Reference" "D25"
-			(at 220.98 48.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 51.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 48.5774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc82e252-e00f-44ab-ba7a-1b02b25df5cc")
-		)
-		(pin "1"
-			(uuid "16608f9a-3670-4b5e-9b78-6b186549328d")
-		)
-		(instances
-			(project ""
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57f95f34-d0bb-4637-bf9a-8a389ca7da57")
-		(property "Reference" "D29"
-			(at 220.98 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 71.4374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ee9d0fa-6950-4f4e-a57c-c8740e85900c")
-		)
-		(pin "1"
-			(uuid "bc2b5e65-c997-4170-84b0-81bab87b50c2")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 163.83 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,32 +2794,25 @@
 		(fields_autoplaced yes)
 		(uuid "60079e05-cebd-4ccb-ac07-6da12b43b1fd")
 		(property "Reference" "D23"
-			(at 172.72 163.83 0)
+			(at 170.18 163.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 163.83 0)
+			(at 170.18 165.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 163.83 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +2820,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 163.83 0)
 			(effects
 				(font
@@ -3950,7 +2839,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 163.83 0)
+			(at 147.32 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,6 +2865,9 @@
 		(pin "5"
 			(uuid "7003e711-118d-4601-9f74-b36270b02481")
 		)
+		(pin "7"
+			(uuid "5ea0a1b7-5c42-49b9-b953-f1bf1477bdd9")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -3986,8 +2878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 92.71 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3996,32 +2888,25 @@
 		(fields_autoplaced yes)
 		(uuid "72b3ac8d-430a-419c-8686-632cdb2a21db")
 		(property "Reference" "D9"
-			(at 148.59 92.71 0)
+			(at 146.05 92.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 92.71 0)
+			(at 146.05 94.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 92.71 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +2914,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 92.71 0)
 			(effects
 				(font
@@ -4039,7 +2933,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 92.71 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,6 +2958,9 @@
 		)
 		(pin "5"
 			(uuid "91edc4dc-7189-49e1-b4ec-2212fbafec38")
+		)
+		(pin "7"
+			(uuid "95028b27-ff3d-4072-b659-31814bddc7bd")
 		)
 		(instances
 			(project ""
@@ -4093,7 +2990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 138.43 82.5499 0)
 			(effects
 				(font
@@ -4129,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 138.43 80.0099 0)
 			(effects
 				(font
@@ -4219,8 +3116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 153.67 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4229,32 +3126,25 @@
 		(fields_autoplaced yes)
 		(uuid "82939db0-4c9b-494a-bcb8-30faca014af2")
 		(property "Reference" "D22"
-			(at 172.72 153.67 0)
+			(at 170.18 153.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 153.67 0)
+			(at 170.18 155.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 153.67 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +3152,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -4272,7 +3171,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 153.67 0)
+			(at 147.32 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,6 +3197,9 @@
 		(pin "5"
 			(uuid "5e135e78-19ab-43b3-863c-7fc532e6b103")
 		)
+		(pin "7"
+			(uuid "621bfbfd-57c1-48b9-9c45-dee0106f71a7")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -4308,8 +3210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 113.03 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4318,32 +3220,25 @@
 		(fields_autoplaced yes)
 		(uuid "94e5e6b6-35a0-411e-8093-b4a9a8767d40")
 		(property "Reference" "D18"
-			(at 172.72 113.03 0)
+			(at 170.18 112.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 113.03 0)
+			(at 170.18 115.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 113.03 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +3246,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -4361,7 +3265,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 113.03 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,6 +3291,9 @@
 		(pin "5"
 			(uuid "5d8ff002-25f0-45cb-aa40-c600d92bac89")
 		)
+		(pin "7"
+			(uuid "221bc1a5-1e28-4af5-91f8-f36f51cf345d")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -4397,87 +3304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bd5065b-93fd-4d76-b36c-fe07f3fbd0ab")
-		(property "Reference" "D38"
-			(at 233.68 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 71.4374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c9167572-2e94-4380-bd5e-dfd8e6e0819c")
-		)
-		(pin "1"
-			(uuid "a5d6fc3b-db25-4ebd-92a0-a06503ebb393")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 123.19 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4486,32 +3314,25 @@
 		(fields_autoplaced yes)
 		(uuid "a109c260-0e86-49bd-b898-2acf3aa716a3")
 		(property "Reference" "D19"
-			(at 172.72 123.19 0)
+			(at 170.18 122.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 123.19 0)
+			(at 170.18 125.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 123.19 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +3340,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -4529,7 +3359,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 123.19 0)
+			(at 147.32 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,6 +3385,9 @@
 		(pin "5"
 			(uuid "bd09fa11-441a-46bb-8224-a96d18edd06a")
 		)
+		(pin "7"
+			(uuid "bde147e6-dcb5-46ee-9232-02ce3ce24bb1")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -4565,166 +3398,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 217.17 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15611a8-459d-4ee9-852a-56ffdc089aaa")
-		(property "Reference" "R19"
-			(at 219.71 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 219.71 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 215.392 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17561"
-			(at 219.71 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e3d1e98-10d4-4e02-b3ff-9e9217d8f863")
-		)
-		(pin "2"
-			(uuid "5bb01040-b4c7-4d59-a8c8-751961d0732d")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c0742b-b36b-4c55-bd7d-c5288ee2c421")
-		(property "Reference" "D40"
-			(at 233.68 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 86.6774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6dc6c8a-a5c1-4aad-83d1-9421f80cacfc")
-		)
-		(pin "1"
-			(uuid "8f4800ab-c06a-4e3d-a32d-d08974bcc6ff")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 143.51 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4733,32 +3408,25 @@
 		(fields_autoplaced yes)
 		(uuid "ac60f568-616a-4d35-836f-7e2063a0d9e9")
 		(property "Reference" "D21"
-			(at 172.72 143.51 0)
+			(at 170.18 142.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 143.51 0)
+			(at 170.18 145.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 143.51 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +3434,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 143.51 0)
 			(effects
 				(font
@@ -4776,7 +3453,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 143.51 0)
+			(at 147.32 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,89 +3479,13 @@
 		(pin "5"
 			(uuid "46dcd546-f09f-4848-9f7d-708f9be148e9")
 		)
+		(pin "7"
+			(uuid "7190e845-d1a9-4c87-9b64-d90579ad11e3")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bba0fb8e-8eaf-4e9b-812f-3e1c56676703")
-		(property "Reference" "D35"
-			(at 233.68 48.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 51.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 48.5774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22fc22de-f7a6-4d64-bba2-fc71f8cbdaa7")
-		)
-		(pin "1"
-			(uuid "25a3d3af-65ab-4341-bbae-b79c8b9ff43a")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -4957,310 +3558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c44663b0-1ea6-4fe3-904e-fccc1e1f280c")
-		(property "Reference" "D31"
-			(at 220.98 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 86.6774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1e9f674-71e8-4e39-8a76-fc0080af49e1")
-		)
-		(pin "1"
-			(uuid "242427e1-7ccc-463c-8da5-565be979ac90")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c95a7dd3-a4f9-42db-84a5-be0b16a5553e")
-		(property "Reference" "#PWR018"
-			(at 167.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18834a1a-7553-463b-adbe-46c379126b90")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbe091ee-fb29-4434-949b-6e6687305baa")
-		(property "Reference" "D41"
-			(at 233.68 94.2974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 94.2974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b42fde41-d292-47a5-ab54-90bee539464e")
-		)
-		(pin "1"
-			(uuid "ac7452cd-ca8b-44b7-8cec-7b239219cb31")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce4d9bdb-7528-49bb-8fe2-d227a9f9a604")
-		(property "Reference" "D30"
-			(at 220.98 79.0574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 79.0574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba59f319-59b6-4a0d-a573-3eb2a76c3261")
-		)
-		(pin "1"
-			(uuid "f954d993-8f59-455a-b9e3-3cbb4fa9a3bb")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 92.71 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5269,32 +3568,25 @@
 		(fields_autoplaced yes)
 		(uuid "d152941b-817f-4f27-b53c-11fad50e9f93")
 		(property "Reference" "D4"
-			(at 172.72 92.71 0)
+			(at 170.18 92.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 92.71 0)
+			(at 170.18 94.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 92.71 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +3594,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -5312,7 +3613,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 92.71 0)
+			(at 147.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,6 +3638,9 @@
 		)
 		(pin "5"
 			(uuid "a3517a25-c825-43ea-b39a-3c3fd833cd1c")
+		)
+		(pin "7"
+			(uuid "b5f0efe5-9f55-49dc-8da3-1be549efa39e")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -5413,8 +3717,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 143.51 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5423,32 +3727,25 @@
 		(fields_autoplaced yes)
 		(uuid "d4531b62-3468-4d07-8d02-aca46aab7184")
 		(property "Reference" "D14"
-			(at 148.59 143.51 0)
+			(at 146.05 142.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 143.51 0)
+			(at 146.05 145.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 143.51 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +3753,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -5466,7 +3772,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 143.51 0)
+			(at 123.19 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,6 +3797,9 @@
 		)
 		(pin "5"
 			(uuid "9d386b75-89d0-4f2f-be78-9ab5b1012503")
+		)
+		(pin "7"
+			(uuid "d732e846-8371-4bc2-903e-a976d880ed72")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -5520,7 +3829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "1"
 			(at 86.36 105.4099 0)
 			(effects
 				(font
@@ -5646,85 +3955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e192de61-8f1d-4d48-9168-885507f2ee83")
-		(property "Reference" "D37"
-			(at 233.68 63.8174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 66.3574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 63.8174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21e25c6d-ac41-45ca-9097-b201deb16f42")
-		)
-		(pin "1"
-			(uuid "5dc85fe6-f129-4931-ac56-033d498aea70")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 106.68 0)
 		(unit 1)
@@ -5790,153 +4020,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 229.87 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e527b986-f616-4639-8631-8c12bb275329")
-		(property "Reference" "D42"
-			(at 233.68 101.9174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 233.68 104.4574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 229.87 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 229.87 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 233.68 101.9174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "299945c2-dda9-41d3-aa68-fd5c42c0c929")
-		)
-		(pin "1"
-			(uuid "111b98e3-ae32-406a-9dfe-8c66abbf98d4")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_1")
-		(lib_id "power:VCC")
-		(at 167.64 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea2e7452-b66b-48ac-9192-5708d19b19c9")
-		(property "Reference" "#PWR017"
-			(at 167.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 167.64 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 167.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8dd3e56-3d0b-499b-8ded-04ae96806794")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 123.19 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5945,32 +4030,25 @@
 		(fields_autoplaced yes)
 		(uuid "f06b213d-a2e8-4640-b2e9-fdbc66b91b85")
 		(property "Reference" "D12"
-			(at 148.59 123.19 0)
+			(at 146.05 122.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 123.19 0)
+			(at 146.05 125.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 123.19 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +4056,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 123.19 0)
 			(effects
 				(font
@@ -5988,7 +4075,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 123.19 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,6 +4101,9 @@
 		(pin "5"
 			(uuid "e27d5307-e5c1-4d72-a514-6647bb862f1c")
 		)
+		(pin "7"
+			(uuid "d129bf8f-e56a-4c48-a664-2d830a0179c3")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -6024,8 +4114,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 102.87 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,32 +4124,25 @@
 		(fields_autoplaced yes)
 		(uuid "f5b41b4d-a389-42b7-b4fa-f3eae6b187c2")
 		(property "Reference" "D10"
-			(at 148.59 102.87 0)
+			(at 146.05 102.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 102.87 0)
+			(at 146.05 104.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 102.87 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +4150,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -6077,7 +4169,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 102.87 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,6 +4195,9 @@
 		(pin "5"
 			(uuid "ff44ba06-8fcb-4102-97de-0713d4c0490b")
 		)
+		(pin "7"
+			(uuid "6594bdd2-dcb2-44c3-986c-d811c1ac4284")
+		)
 		(instances
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
@@ -6113,166 +4208,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 199.39 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f72f7813-3985-407c-80de-dfdf0addeb52")
-		(property "Reference" "R16"
-			(at 201.93 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3"
-			(at 201.93 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 199.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 199.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16257"
-			(at 201.93 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80c4a542-3b80-450c-ad07-8055277b7c72")
-		)
-		(pin "2"
-			(uuid "55dc53ff-0deb-46db-acdb-8b7382ee6d1f")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f85229db-a82d-4e16-b571-a317d24b5e6a")
-		(property "Reference" "D28"
-			(at 220.98 63.8174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 66.3574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C264473"
-			(at 220.98 63.8174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7cc26bdf-609c-40ea-9984-5acc80f1bd29")
-		)
-		(pin "1"
-			(uuid "97cfc1cc-ef4d-485e-9f12-8459eba202ff")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 135.89 163.83 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 135.89 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6281,32 +4218,25 @@
 		(fields_autoplaced yes)
 		(uuid "f9047884-b006-4569-bec6-36b0efc3b937")
 		(property "Reference" "D16"
-			(at 148.59 163.83 0)
+			(at 146.05 163.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 146.05 163.83 0)
+			(at 146.05 165.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 137.16 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 163.83 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 120.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +4244,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 118.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 135.89 163.83 0)
 			(effects
 				(font
@@ -6324,7 +4263,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 148.59 163.83 0)
+			(at 123.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,6 +4288,9 @@
 		)
 		(pin "5"
 			(uuid "e3e4f8de-259f-4e4a-95e9-5b6742f006cf")
+		)
+		(pin "7"
+			(uuid "8140f33f-3098-499c-8d32-d727ff7f7d24")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -6378,7 +4320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 143.51 82.5499 0)
 			(effects
 				(font
@@ -6414,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17561"
+		(property "LCSC" "C17415"
 			(at 143.51 80.0099 0)
 			(effects
 				(font
@@ -6439,8 +4381,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 160.02 102.87 90)
+		(lib_id "LCSC:TC5053RGBE60-3CJH-GF09")
+		(at 160.02 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6449,32 +4391,25 @@
 		(fields_autoplaced yes)
 		(uuid "ffa1a288-211b-4c27-9189-f0069bc80ad4")
 		(property "Reference" "D17"
-			(at 172.72 102.87 0)
+			(at 170.18 102.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 170.18 102.87 0)
+			(at 170.18 104.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 102.87 0)
+		(property "Footprint" "LCSC:LED-SMD_6P-L5.0-W5.0-BL_TC5053RGBE60"
+			(at 144.78 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +4417,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC5053RGBE60-3CJH-GF09_C784542.html"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -6492,7 +4436,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 172.72 102.87 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,6 +4461,9 @@
 		)
 		(pin "5"
 			(uuid "ad96b335-96ed-4d1e-b8f6-8a4e0303d56c")
+		)
+		(pin "7"
+			(uuid "e96b0bac-dfbf-4c0c-b689-1b9cd151c30f")
 		)
 		(instances
 			(project "LEDTischLampe"
@@ -6719,104 +4666,6 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 38.1)
-		(size 16.51 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "caa9cf2f-0db8-4b11-940e-edce255a092c")
-		(property "Sheetname" "LedTreiber5"
-			(at 170.18 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CCLedTreiber.kicad_sch"
-			(at 170.18 51.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Vin" input
-			(at 170.18 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8d607317-e8a0-48c2-b0ce-a3fb091a0e64")
-		)
-		(pin "LEDP" input
-			(at 186.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "53ccce30-c252-4593-8830-e868dfcede67")
-		)
-		(pin "Dim" input
-			(at 170.18 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b68cd70e-3688-4174-b928-b49d44186c6e")
-		)
-		(pin "LEDN" input
-			(at 186.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e0ea8ebd-4638-4c43-b307-4bbfe1a40c99")
-		)
-		(pin "GND" input
-			(at 170.18 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7d8b73b7-1adb-4683-a579-f2f55ac81d97")
-		)
-		(pin "R_{sense}" input
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "97cc28d7-9234-437b-98f4-82e731565757")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d/510bc110-0bc9-4ffc-b901-498b8c9eef65"
-					(page "7")
 				)
 			)
 		)
