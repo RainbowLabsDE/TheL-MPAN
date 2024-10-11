@@ -3487,6 +3487,12 @@
 		(uuid "2855f977-0b89-4ae3-9e9a-4811f3540818")
 	)
 	(junction
+		(at 166.37 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47101f46-dac8-455f-94f8-765c2b4c380c")
+	)
+	(junction
 		(at 132.08 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3547,6 +3553,12 @@
 		(uuid "94c0d471-e070-4e36-b205-758efa363aa3")
 	)
 	(junction
+		(at 157.48 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ea8b47-5c0c-4f3a-9cd1-566f5509af38")
+	)
+	(junction
 		(at 146.05 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3571,6 +3583,12 @@
 		(uuid "cf8f3436-175e-4283-8bdc-969b71b08f79")
 	)
 	(junction
+		(at 157.48 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d101e0c7-7e9f-4677-8d6e-e1eb42af9f13")
+	)
+	(junction
 		(at 45.72 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3587,6 +3605,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f25962c6-3489-4f51-b026-eb99edfdc669")
+	)
+	(wire
+		(pts
+			(xy 166.37 175.26) (xy 166.37 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010d5353-efa9-4e8f-8428-21e0a721a08f")
 	)
 	(wire
 		(pts
@@ -3730,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 185.42) (xy 166.37 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b57b5c3-8bf4-484b-be0b-ccf709363031")
+	)
+	(wire
+		(pts
 			(xy 146.05 43.18) (xy 146.05 44.45)
 		)
 		(stroke
@@ -3830,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 175.26) (xy 167.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486dfb1e-12db-4a69-824f-525fd29b1c9c")
+	)
+	(wire
+		(pts
 			(xy 99.06 158.75) (xy 99.06 161.29)
 		)
 		(stroke
@@ -3860,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5298adaf-7d7d-4e76-b4ee-44fc1d962089")
+	)
+	(wire
+		(pts
 			(xy 109.22 158.75) (xy 109.22 161.29)
 		)
 		(stroke
@@ -3867,6 +3925,16 @@
 			(type default)
 		)
 		(uuid "57eb8af7-f285-4427-b946-2743e876c487")
+	)
+	(wire
+		(pts
+			(xy 157.48 185.42) (xy 166.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a616099-4ffd-4da9-83e0-b06077089970")
 	)
 	(wire
 		(pts
@@ -4270,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 185.42) (xy 157.48 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16cebd5-09a2-4e1b-b3ab-e0ac9b332ab8")
+	)
+	(wire
+		(pts
 			(xy 57.15 77.47) (xy 57.15 78.74)
 		)
 		(stroke
@@ -4277,6 +4355,16 @@
 			(type default)
 		)
 		(uuid "a596b779-ac38-412a-b773-78bf12aac698")
+	)
+	(wire
+		(pts
+			(xy 157.48 175.26) (xy 157.48 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cc4d07-f834-44cf-9c48-d4782faa019f")
 	)
 	(wire
 		(pts
@@ -4370,6 +4458,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 185.42) (xy 157.48 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b809e8b3-64f7-4dfd-ac75-5b2fb963b248")
+	)
+	(wire
+		(pts
+			(xy 157.48 173.99) (xy 157.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b941ba24-f486-434d-b54f-76e7bf519bdb")
+	)
+	(wire
+		(pts
 			(xy 49.53 96.52) (xy 49.53 99.06)
 		)
 		(stroke
@@ -4437,6 +4545,26 @@
 			(type default)
 		)
 		(uuid "c0922dcd-7af3-4898-a523-6d9f7c109157")
+	)
+	(wire
+		(pts
+			(xy 157.48 163.83) (xy 157.48 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3664f87-2b89-4f33-8cc2-60720f7c3ab2")
+	)
+	(wire
+		(pts
+			(xy 157.48 175.26) (xy 166.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8d9bc1-78ef-4bec-bb7f-27e5f323bef3")
 	)
 	(wire
 		(pts
@@ -5155,6 +5283,50 @@
 			)
 		)
 	)
+	(global_label "V_{sense}"
+		(shape input)
+		(at 114.3 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6b9b7c6-14ee-4072-bd9d-ae626a62af9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.8694 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_{sense}"
+		(shape input)
+		(at 167.64 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faf4e6bc-6341-45b1-b244-bde5d9001d6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0706 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO9"
 		(shape input)
 		(at 115.57 124.46 180)
@@ -5447,6 +5619,76 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb56156-3a23-4fd3-af56-3a4c48ebafb3")
+		(property "Reference" "R18"
+			(at 160.02 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 160.02 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.702 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a9371c-368c-4189-9f33-bf4b41535ab3")
+		)
+		(pin "2"
+			(uuid "216ac105-977f-45cf-a0ca-d9555602ae1d")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5847,6 +6089,76 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a729d10-8328-4c2e-8ca0-61d5bb6890c1")
+		(property "Reference" "C13"
+			(at 170.18 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 170.18 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 167.3352 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a58aab9-7e9f-4dd2-a7e2-ff2aeb613b91")
+		)
+		(pin "2"
+			(uuid "da3b002b-3d72-4202-aa44-c6e15991a11d")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6329,6 +6641,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 157.48 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529d8948-5e99-4c15-8ef2-73b82e2bcbdf")
+		(property "Reference" "R17"
+			(at 160.02 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 160.02 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.702 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e491b3-76ff-4a14-8274-6fe885a1e9d1")
+		)
+		(pin "2"
+			(uuid "170cde1e-6040-49f2-9b2c-580e0593e0ad")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 31.75 93.98 0)
 		(unit 1)
@@ -6498,6 +6880,72 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5add8879-4e2b-4ffd-8f6a-cc0965e40fe5")
+		(property "Reference" "#PWR020"
+			(at 157.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970d22bb-5a7e-4949-9066-832f018d3121")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7378,9 +7826,9 @@
 		(at 109.22 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83ce8f28-c9d6-4c16-8175-b3841a60d4cb")
 		(property "Reference" "D3"
@@ -7912,6 +8360,72 @@
 		)
 	)
 	(symbol
+		(lib_name "VCC_1")
+		(lib_id "power:VCC")
+		(at 157.48 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967ee623-d2bc-454d-b292-8583f0601729")
+		(property "Reference" "#PWR018"
+			(at 157.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 157.48 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2751c93-0939-4155-b680-bcec05767f2e")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 132.08 180.34 0)
 		(unit 1)
@@ -8120,9 +8634,9 @@
 		(at 99.06 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a8edf92-9c4b-4acc-b96e-fb72d6d01c39")
 		(property "Reference" "D2"
@@ -9427,7 +9941,7 @@
 		(at 133.35 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9980,9 +10494,9 @@
 		(at 160.02 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7d27ddf-e6cd-4b32-ba7b-2ecf44d24e3b")
 		(property "Reference" "D1"
@@ -10047,17 +10561,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 24.13 35.56 0)
-		(mirror y)
+		(at 24.13 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "f8fed13b-8b34-441b-a9f2-559631154459")
 		(property "Reference" "J1"
-			(at 24.765 30.48 0)
+			(at 24.765 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +10577,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 24.765 33.02 0)
+			(at 24.765 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10585,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 24.13 35.56 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 35.56 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10603,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 24.13 35.56 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

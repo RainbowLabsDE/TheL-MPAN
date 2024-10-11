@@ -1226,15 +1226,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C107309"
-			(at 106.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0fc86349-8eb9-4b59-89d9-4107bb3e1977")
 		)
