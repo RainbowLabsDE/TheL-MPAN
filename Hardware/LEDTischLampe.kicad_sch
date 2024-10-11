@@ -1353,151 +1353,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -2847,508 +2702,6 @@
 				)
 			)
 		)
-		(symbol "Techbeard:P-CHANNEL-MOSFET"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at -12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "P-CHANNEL-MOSFET"
-				(at -12.7 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SOT23-3"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT23-3*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "P-CHANNEL-MOSFET_0_0"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "P-CHANNEL-MOSFET_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.2192 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 2.54) (xy -1.143 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.397) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.159 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.683) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 -0.635) (xy 2.159 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0.635) (xy 2.159 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 6.35 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "D"
-					(at 1.6764 -4.6736 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-					)
-				)
-				(text "G"
-					(at -3.81 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-					)
-				)
-				(text "S"
-					(at 1.6764 5.4864 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-					)
-				)
-			)
-			(symbol "P-CHANNEL-MOSFET_1_1"
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 3.81 0) (xy 3.81 0) (xy 6.35 0) (xy 6.35 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Techbeard:RY8310"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4218,22 +3571,16 @@
 		(uuid "cf8f3436-175e-4283-8bdc-969b71b08f79")
 	)
 	(junction
-		(at 58.42 35.56)
+		(at 45.72 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1818bae-5a09-47b1-b2d0-d2006ea28873")
+		(uuid "ea58e8d4-4311-445b-8613-11f07fc87192")
 	)
 	(junction
 		(at 107.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb593cb-71f3-4ee7-8275-773f1eb2d91b")
-	)
-	(junction
-		(at 49.53 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eec2fd51-ece7-4c4c-956a-bd8380752fb0")
 	)
 	(junction
 		(at 137.16 35.56)
@@ -4483,16 +3830,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 49.53 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44944468-aef4-4219-8f3c-62520def56ae")
-	)
-	(wire
-		(pts
 			(xy 99.06 158.75) (xy 99.06 161.29)
 		)
 		(stroke
@@ -4620,16 +3957,6 @@
 			(type default)
 		)
 		(uuid "666371da-8a7e-429b-9055-19df27d76809")
-	)
-	(wire
-		(pts
-			(xy 58.42 35.56) (xy 58.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669ba1ec-c5de-440e-a1a6-6b227b72fba2")
 	)
 	(wire
 		(pts
@@ -4903,16 +4230,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 58.42 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954d2165-9bd0-4911-bf64-e1e097f5f246")
-	)
-	(wire
-		(pts
 			(xy 116.84 96.52) (xy 120.65 96.52)
 		)
 		(stroke
@@ -4950,16 +4267,6 @@
 			(type default)
 		)
 		(uuid "9e4621f6-4d75-4e56-9124-2d32d3d0c6fa")
-	)
-	(wire
-		(pts
-			(xy 49.53 46.99) (xy 49.53 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fff92f3-2bd2-4b74-93ef-48ea04a60b07")
 	)
 	(wire
 		(pts
@@ -5123,23 +4430,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 50.8 44.45)
+			(xy 45.72 35.56) (xy 68.58 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2239348-c548-4038-8776-ab770de8da9e")
-	)
-	(wire
-		(pts
-			(xy 29.21 35.56) (xy 39.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb92ec20-5718-4a8b-a8c2-22cfd95a8afd")
+		(uuid "c0922dcd-7af3-4898-a523-6d9f7c109157")
 	)
 	(wire
 		(pts
@@ -5173,6 +4470,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 45.72) (xy 45.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d2ae5e-0e24-46b1-8e70-12a3884d414d")
+	)
+	(wire
+		(pts
 			(xy 109.22 179.07) (xy 109.22 181.61)
 		)
 		(stroke
@@ -5193,7 +4500,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 35.56) (xy 68.58 35.56)
+			(xy 29.21 35.56) (xy 45.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5250,6 +4557,16 @@
 			(type default)
 		)
 		(uuid "ebceb9c4-0902-472a-acc4-e572fa16c95a")
+	)
+	(wire
+		(pts
+			(xy 45.72 36.83) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece5c0d7-0e52-4cdf-94b7-69390e16274d")
 	)
 	(wire
 		(pts
@@ -5310,6 +4627,16 @@
 			(type default)
 		)
 		(uuid "ffd7b946-8ba5-4f0a-b0f4-8ef03c872034")
+	)
+	(text "Crowbar diode"
+		(exclude_from_sim no)
+		(at 48.768 42.672 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "58bafae1-29b0-4626-a271-f15fbfa4db95")
 	)
 	(text "Resistor for clamping reverse leakage of diode\n(Apparently MacBooks don't like this)"
 		(exclude_from_sim no)
@@ -5971,15 +5298,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
-			(at 81.28 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "48895e72-6172-478f-928a-4ca103b787c2")
 		)
@@ -6050,15 +5368,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 73.66 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "825c7238-61cb-44b3-9fa0-c9f40c442b19")
 		)
@@ -6121,15 +5430,6 @@
 		)
 		(property "Description" ""
 			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +5677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.6352 116.84 0)
 			(effects
 				(font
@@ -6397,15 +5697,6 @@
 		)
 		(property "Description" ""
 			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52306"
-			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,15 +5763,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25905"
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -6690,15 +5972,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d3da2108-767e-4988-8040-e145aaf3ca02")
 		)
@@ -6769,15 +6042,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 43.18 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7cd262ca-084e-45fd-902d-167e850f8ddc")
 		)
@@ -6820,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 79.7052 43.18 0)
 			(effects
 				(font
@@ -6840,15 +6104,6 @@
 		)
 		(property "Description" ""
 			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52306"
-			(at 81.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,94 +6187,6 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Techbeard:P-CHANNEL-MOSFET")
-		(at 46.99 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d8fe62d-e671-4a58-b725-cba8585f102a")
-		(property "Reference" "Q1"
-			(at 20.32 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P-CHANNEL-MOSFET"
-			(at 20.32 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
-			(at 50.8 37.338 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C471913"
-			(at 20.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "91d15652-932c-45b4-adc4-3a0c144d057b")
-		)
-		(pin "5"
-			(uuid "51b496ab-4536-42c7-9c8e-58a381f73421")
-		)
-		(pin "1"
-			(uuid "76d56cb5-9c12-4ddf-ac67-f50efda13d51")
-		)
-		(pin "2"
-			(uuid "8f969aaf-bc0e-4741-bf86-a4d1d9375ca6")
-		)
-		(pin "3"
-			(uuid "ae36939f-bebe-435b-a5f5-bc18defd959b")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7146,15 +6313,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 144.78 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fd6caa08-7c43-4dd2-a3d9-d6b993084a0a")
 		)
@@ -7215,15 +6373,6 @@
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 31.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2927038"
-			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.0152 43.18 0)
 			(effects
 				(font
@@ -7332,15 +6481,6 @@
 		)
 		(property "Description" ""
 			(at 146.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52306"
-			(at 148.59 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,15 +6551,6 @@
 		)
 		(property "Description" ""
 			(at 31.75 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 34.29 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,15 +6751,6 @@
 		)
 		(property "Description" ""
 			(at 102.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 102.87 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,15 +7158,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
-			(at 72.39 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "85512faa-7d8a-4f7c-8924-6f8df5a7a1e9")
 		)
@@ -8127,74 +7240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 54.61 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "813b5d4e-fc10-4231-b662-2c39f4ae2413")
-		(property "Reference" "D34"
-			(at 54.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15V"
-			(at 54.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d781dc3e-25ed-448c-aebe-513bb89a4343")
-		)
-		(pin "2"
-			(uuid "eba6f961-b437-4f3d-a7a9-c7767458160d")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 276.86 267.97 0)
 		(unit 1)
@@ -8260,84 +7305,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82507a99-7ef0-47c2-950a-d8a5dddbd060")
-		(property "Reference" "R17"
-			(at 50.8 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 50.8 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.752 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 50.8 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90f8fe40-84ae-45d0-bee9-c4ac052820fd")
-		)
-		(pin "2"
-			(uuid "648a22ce-4733-4ab5-a651-63b3eb20fcb2")
-		)
-		(instances
-			(project ""
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 125.73 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8384,15 +7351,6 @@
 		)
 		(property "Description" ""
 			(at 125.73 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25756"
-			(at 128.27 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,15 +7421,6 @@
 		)
 		(property "Description" ""
 			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 113.03 175.5774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,15 +7556,6 @@
 		)
 		(property "Description" ""
 			(at 31.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 20.32 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,15 +7896,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6f9ef8b4-8f2c-48ea-8690-86582911b19f")
 		)
@@ -9026,15 +7957,6 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 132.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2991699"
 			(at 132.08 180.34 0)
 			(effects
 				(font
@@ -9106,15 +8028,6 @@
 		)
 		(property "Description" ""
 			(at 125.73 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25792"
-			(at 128.27 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,15 +8170,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2296"
-			(at 102.87 175.5774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8c7cc30-b2ee-46b6-8efd-041e318ae5e7")
 		)
@@ -9326,15 +8230,6 @@
 		)
 		(property "Description" ""
 			(at 97.79 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C370876"
-			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,15 +8312,6 @@
 		)
 		(property "Description" ""
 			(at 109.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 111.76 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,15 +8470,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
-			(at 52.07 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "127858c4-b679-4b02-a0ca-217a7f9dfb00")
 		)
@@ -9663,15 +8540,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
-			(at 162.56 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "add56740-c45d-411f-9c94-8043f2ab982d")
 		)
@@ -9731,15 +8599,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25905"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -10016,15 +8875,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
-			(at 101.6 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b36e691e-6d05-480a-84a0-a7e1117e6b62")
 		)
@@ -10233,6 +9083,72 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0c826b9-a372-4183-960d-4bbe00493050")
+		(property "Reference" "#PWR017"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f9525d-4329-4e4a-a10b-59cbb1f869b5")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10491,15 +9407,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
-			(at 64.77 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a2b17dce-7590-495d-bfff-eac9c05d505c")
 		)
@@ -10650,15 +9557,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2934560"
-			(at 138.0841 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "14"
 			(uuid "7959e64d-20ee-491f-a03c-6514e2d651e4")
 		)
@@ -10773,15 +9671,6 @@
 		)
 		(property "Description" ""
 			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 134.62 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,72 +9824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec0bcbf5-94ae-409e-8839-28c55e14c0e3")
-		(property "Reference" "#PWR020"
-			(at 49.53 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3570d478-ca73-469b-980a-0b0cf1f753b6")
-		)
-		(instances
-			(project "LEDTischLampe"
-				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 119.38 35.56 90)
 		(unit 1)
@@ -11052,15 +9875,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5832376"
-			(at 117.602 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4bacc89c-8e56-48bf-a5ab-ceacebabfd1b")
 		)
@@ -11071,6 +9885,91 @@
 			(project "LEDTischLampe"
 				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 45.72 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f390a8e6-dc72-4243-b042-1bc6291b44bf")
+		(property "Reference" "D25"
+			(at 41.402 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 43.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c123e63-2c91-4950-9ec1-a72e2d6f0ed4")
+		)
+		(pin "2"
+			(uuid "d1046339-e056-42ca-9d4a-782f999f53f7")
+		)
+		(instances
+			(project "LEDTischLampe"
+				(path "/34c772aa-2c68-48ca-93c3-7ad335c6d96d"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -11124,15 +10023,6 @@
 		)
 		(property "Description" ""
 			(at 160.02 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 163.83 43.4974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
