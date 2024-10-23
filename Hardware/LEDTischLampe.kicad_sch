@@ -3523,12 +3523,6 @@
 		(uuid "59f6e2fd-342a-459f-9fe9-5b359d052d28")
 	)
 	(junction
-		(at 105.41 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ca194af-38f0-4b20-b8f1-cb20e656afd7")
-	)
-	(junction
 		(at 49.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4088,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 35.56) (xy 107.95 35.56)
+			(xy 104.14 35.56) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4395,16 +4389,6 @@
 			(type default)
 		)
 		(uuid "ade61fb3-5efd-4e9b-952d-2b56f926ee06")
-	)
-	(wire
-		(pts
-			(xy 104.14 35.56) (xy 105.41 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b085c58b-2417-4535-a14f-bbdee536e06f")
 	)
 	(wire
 		(pts
@@ -4821,28 +4805,6 @@
 			)
 		)
 	)
-	(global_label "RDim"
-		(shape input)
-		(at 114.3 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "349280e2-df18-45ad-b84b-543e83f58a04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4767 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "StateLed00"
 		(shape input)
 		(at 114.3 116.84 180)
@@ -4975,9 +4937,9 @@
 			)
 		)
 	)
-	(global_label "BDim"
+	(global_label "RDim"
 		(shape input)
-		(at 114.3 104.14 180)
+		(at 114.3 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4985,9 +4947,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8c2c4d20-4f5e-4907-b61f-93d30e5751c7")
+		(uuid "8e8b3c45-e5f2-4d32-9ef4-130142b69f66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4767 104.14 0)
+			(at 106.4767 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,6 +4999,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GDim"
+		(shape input)
+		(at 114.3 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f71c802-09d1-4b1e-9388-9dacd9194ca4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4767 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5107,9 +5091,9 @@
 			)
 		)
 	)
-	(global_label "GDim"
+	(global_label "BDim"
 		(shape input)
-		(at 114.3 106.68 180)
+		(at 114.3 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5117,9 +5101,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b4b77dcd-7d8e-44bc-b814-714fcb2adb29")
+		(uuid "d414fb38-7bf2-4680-84bf-b3d67fefc707")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4767 106.68 0)
+			(at 106.4767 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

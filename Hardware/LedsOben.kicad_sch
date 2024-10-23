@@ -1607,7 +1607,7 @@
 	)
 	(global_label "GDim"
 		(shape input)
-		(at 48.26 66.04 180)
+		(at 48.26 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1617,7 +1617,7 @@
 		)
 		(uuid "4317f0d6-d701-4c08-beec-0f66ccf92296")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4367 66.04 0)
+			(at 40.4367 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1629,7 @@
 	)
 	(global_label "RDim"
 		(shape input)
-		(at 48.26 97.79 180)
+		(at 48.26 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1639,7 +1639,7 @@
 		)
 		(uuid "7390a977-4ce4-450f-a0c3-81bd5fc4f5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4367 97.79 0)
+			(at 40.4367 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 	)
 	(global_label "BDim"
 		(shape input)
-		(at 48.26 36.83 180)
+		(at 48.26 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1661,7 +1661,7 @@
 		)
 		(uuid "ea04113e-389e-4d5b-97cd-61b13726f4ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4367 36.83 0)
+			(at 40.4367 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3158ee75-269d-4678-a09e-d51dcc288918")
-		(property "Sheetname" "LedTreiber1"
+		(property "Sheetname" "LedTreiberB"
 			(at 54.61 90.7284 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9a951bb8-f46c-4ee0-a3d3-d4e6ca3ed117")
-		(property "Sheetname" "LedTreiber2"
+		(property "Sheetname" "LedTreiberR"
 			(at 54.61 58.9784 0)
 			(effects
 				(font
@@ -4457,7 +4457,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fb3a6902-adb0-42f5-a319-4ea74339d4c7")
-		(property "Sheetname" "LedTreiber3"
+		(property "Sheetname" "LedTreiberG"
 			(at 54.61 29.7684 0)
 			(effects
 				(font
