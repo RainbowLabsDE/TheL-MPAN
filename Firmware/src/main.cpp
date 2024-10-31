@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "gamma.h"
 
 static const int PWM_BITS = 11;
 static const int PWM_FREQ = 19500;
@@ -23,34 +24,41 @@ void setup() {
     analogWrite(ledPins[0], 25);
     analogWrite(ledPins[1], 11);
     analogWrite(ledPins[2], 25);
-    analogWrite(ledPins[3], 20);
+    analogWrite(ledPins[3], 8);
 
-    // delay(1000);
+    delay(2000);
+
+    analogWrite(ledPins[0], 0);
+    analogWrite(ledPins[1], 0);
+    analogWrite(ledPins[2], 0);
+    analogWrite(ledPins[3], 0);
 }
 
-static const int FADE_MAX = (1 << PWM_BITS) - 1;
-static const int FADE_TIME = 5000000; // us
+static const int FADE_MAX = 255;
+// static const int FADE_MAX = (1 << PWM_BITS) - 1;
+static const int FADE_TIME = 2000000; // us
+
 // // fade steps for 10ms each
 // static const int FADE_MAX = 31;
 // static const int FADE_TIME = 10000 * FADE_MAX; // us
 
 void loop() {
 
-    // // fade up/down channels after each other
-    // for (int i = 3; i < ledPinsLen; i++) {
-    //     for (int j = 0; j <= FADE_MAX; j++) {
-    //         analogWrite(ledPins[i], j);
-    //         delayMicroseconds(FADE_TIME/FADE_MAX);
-    //         Serial.printf("%d: %4d\n", i, j);
-    //     }
-    //     // analogWrite(ledPins[i], 0);
-    //     for (int j = FADE_MAX; j >= 0; j--) {
-    //         analogWrite(ledPins[i], j);
-    //         delayMicroseconds(FADE_TIME/FADE_MAX);
-    //         Serial.printf("%d: %4d\n", i, j);
-    //     }
-    //     // delay(100);
-    // }
+    // fade up/down channels after each other
+    for (int i = 0; i < ledPinsLen; i++) {
+        for (int j = 0; j <= FADE_MAX; j++) {
+            analogWrite(ledPins[i], gamma_lut[j]);
+            delayMicroseconds(FADE_TIME/FADE_MAX);
+            Serial.printf("%d: %4d\n", i, j);
+        }
+        // analogWrite(ledPins[i], 0);
+        for (int j = FADE_MAX; j >= 0; j--) {
+            analogWrite(ledPins[i], gamma_lut[j]);
+            delayMicroseconds(FADE_TIME/FADE_MAX);
+            Serial.printf("%d: %4d\n", i, j);
+        }
+        // delay(100);
+    }
 
 
 
